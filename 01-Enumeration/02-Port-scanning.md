@@ -12,21 +12,21 @@ The Network Mapper - Free Security Scanner
 
 ### TCP
 
-#### common options
+#### Common options
 
 option | description
 --- | ---
--p | port ranges (default: most common 1000 ports), -p- all ports (1-65536)
--sV | version scanning
--sC |	script scanning
--O | OS detection
--A | Aggressive scan options, combines: -O, -sV, -sC, --traceroute
--T<0-5> | Set timing template (higher is faster), aka paranoid\|sneaky\|polite\|normal\|aggressive\|insane (default: 3, aka normal)
--oA |	basename (Output to all formats)
--sU | UDP scans
---max-retries | set to 1 or 0 to considerably speed up scan (but gets a bit less accurate)
+`-p` | port ranges (default: most common 1000 ports), -p- all ports (1-65536)
+`-sV` | version scanning
+`-sC` |	script scanning
+`-O` | OS detection
+`-A` | Aggressive scan options, combines: -O, -sV, -sC, --traceroute
+`-T<0-5>` | Set timing template (higher is faster), aka paranoid\|sneaky\|polite\|normal\|aggressive\|insane (default: 3, aka normal)
+`-oA` |	basename (Output to all formats)
+`-sU` | UDP scan
+`--max-retries` | set to 1 or 0 to considerably speed up scan (but gets a bit less accurate)
 
-#### examples
+#### Examples
 
 light scan
 ```bash
@@ -42,6 +42,9 @@ scan for vulns
 
 ```bash
 nmap --script "vuln and safe" -oA nmap_vuln <ip>
+```
+
+```bash
 nmap -p 139,445 --script smb-vuln* <ip>
 ```
 
@@ -53,7 +56,7 @@ nmap -sU -oA nmap_udp <ip>
 
 ### Useful stuff
 
-get open ports comma separated
+Get open ports comma separated
 
 ```bash
 grep -oP '\d{1,5}/open' nmap.gnmap | cut -d  "/" -f 1 | paste -s -d ','
@@ -65,7 +68,7 @@ grep -oP '\d{1,5}/open' nmap.gnmap | cut -d  "/" -f 1 | paste -s -d ','
 
 Quicker scanning and smarter identification
 
-[scan-tools/banner-plus.nse at master · hdm/scan-tools · GitHub](https://github.com/hdm/scan-tools/blob/master/nse/banner-plus.nse)
+[GitHub - scan-tools/banner-plus.nse](https://github.com/hdm/scan-tools/blob/master/nse/banner-plus.nse)
 
 #### vulners
 
@@ -90,7 +93,7 @@ TCP/IP swiss army knife
 
 ### TCP
 
-connect scan (only validates if ports are open)
+Connect scan (only validates if ports are open)
 
 ```bash
 nc -nvv -w 1 -z <ip> <port-range>
@@ -107,14 +110,16 @@ No response means port is open, otherwise a ICMP packet `port unreachable` is se
 
 ## Port knocking
 
-In computer networking, port knocking is a method of externally opening ports on a firewall by generating a connection attempt on a set of prespecified closed ports.  [Wikipedia](https://en.wikipedia.org/wiki/Port_knocking) 
+> In computer networking, port knocking is a method of externally opening ports on a firewall by generating a connection attempt on a set of prespecified closed ports. 
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Port_knocking)</cite>
 
 ```bash
 knockd
 /etc/knockd.conf
 ```
 
-actually knock to a port
+Actually knock to a port
 ```bash
 nmap -Pn -sT --host_timeout 201 --max-retries 0 -p <port> <ip>
 ```

@@ -1,6 +1,8 @@
 # TCP 23: Telnet
 
 > Telnet is an application protocol used on the Internet or local area network to provide a bidirectional interactive text-oriented communication facility using a virtual terminal connection.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Telnet)</cite>
 
 ## Basics
 

@@ -1,6 +1,8 @@
 # TCP 2049: NFS
 
 > Network File System is a distributed file system protocol originally developed by Sun Microsystems in 1984, allowing a user on a client computer to access files over a computer network much like local storage is accessed.   
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Network_File_System)</cite>
 
 ## Basics
 

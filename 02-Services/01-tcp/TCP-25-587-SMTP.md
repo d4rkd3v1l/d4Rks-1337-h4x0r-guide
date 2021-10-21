@@ -1,6 +1,8 @@
 # TCP 25, 587: SMTP
 
 > The Simple Mail Transfer Protocol is a communication protocol for electronic mail transmission. As an Internet standard, SMTP was first defined in 1982 by RFC 821, and updated in 2008 by RFC 5321 to Extended SMTP additions, which is the protocol variety in widespread use today.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)</cite>
 
 ## Related
 

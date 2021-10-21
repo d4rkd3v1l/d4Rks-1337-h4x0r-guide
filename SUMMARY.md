@@ -30,7 +30,7 @@
     * [TCP 3306: MySQL](02-Services/01-tcp/TCP-3306-MySQL.md)
     * [TCP 3389: RDP](02-Services/01-tcp/TCP-3389-RDP.md)
     * [TCP 5985: WinRM](02-Services/01-tcp/TCP-5985-WinRM.md)
-    * [TCP 6379: redis](02-Services/01-tcp/TCP-6379-redis.md)
+    * [TCP 6379: Redis](02-Services/01-tcp/TCP-6379-Redis.md)
     
 * UDP
 	* [UDP 137, 138, TCP 139: NetBIOS](02-Services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)

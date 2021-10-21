@@ -1,6 +1,8 @@
 # TCP 5985: WinRM
 
 > WinRM is Microsoft's implementation of WS-Management in Windows which allows systems to access or exchange management information across a common network.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Windows_Remote_Management)</cite>
 
 ## Tools
 

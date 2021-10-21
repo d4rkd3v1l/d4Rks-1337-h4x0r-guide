@@ -2,7 +2,7 @@
 
 ## ps
 
-[ps(1) - Linux manual page](http://man7.org/linux/man-pages/man1/ps.1.html) - report a snapshot of the current processes.
+[ps(1) - Linux manual page](http://man7.org/linux/man-pages/man1/ps.1.html) - Report a snapshot of the current processes.
 
 ```bash
 ps aux
@@ -10,7 +10,7 @@ ps aux
 
 ## top
 
-[top(1) - Linux manual page](http://man7.org/linux/man-pages/man1/top.1.html) - display Linux tasks
+[top(1) - Linux manual page](http://man7.org/linux/man-pages/man1/top.1.html) - Display Linux tasks
 
 ```bash
 top
@@ -26,7 +26,7 @@ pspy64
 
 ## psmonitor.sh
 
-monitor process changes
+Monitor process changes
 
 ```bash
 #!/bin/bash

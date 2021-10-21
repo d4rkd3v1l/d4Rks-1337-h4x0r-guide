@@ -1,9 +1,11 @@
 # TCP 80/443: HTTP(S)
 
 > The Hypertext Transfer Protocol is an application protocol for distributed, collaborative, hypermedia information systems.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)</cite>
 
 ## Related
-[webserver scanning](bear://x-callback-url/open-note?id=1734B5F0-CEDF-407C-AF06-FD329AD016DD-13681-0000274FBAF3C0AA)
+[Enumeration/Webserver scanning](../01-Enumeration/03-Webserver-scanning.md)
 
 ## Information gathering
 
@@ -30,7 +32,7 @@ curl <ip> -s -L | grep "title\|href" | sed -e 's/^[[:space:]]*//'
 
 ### URL brute force
 
-see [webserver scanning](bear://x-callback-url/open-note?id=1734B5F0-CEDF-407C-AF06-FD329AD016DD-13681-0000274FBAF3C0AA)
+see [Enumeration/Webserver scanning](../01-Enumeration/03-Webserver-scanning.md)
 
 ### Scrape website 
 

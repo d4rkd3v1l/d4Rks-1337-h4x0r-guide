@@ -1,6 +1,8 @@
 # TCP 143, 993: IMAP(S)
 
 > In computing, the Internet Message Access Protocol is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection. IMAP is defined by RFC 3501.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)</cite>
 
 ## General
 

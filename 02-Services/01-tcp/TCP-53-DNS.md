@@ -1,6 +1,8 @@
 # TCP 53: DNS
 
 > The Domain Name System is a hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It associates various information with domain names assigned to each of the participating entities.  
+>
+>  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)</cite>
 
 ## host
 
