@@ -5,7 +5,7 @@
 >  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)</cite>
 
 ## Related
-[Enumeration/Webserver scanning](../01-Enumeration/03-Webserver-scanning.md)
+[Enumeration/Webserver scanning](../01-enumeration/03-webserver-scanning.md)
 
 ## Information gathering
 
@@ -32,7 +32,7 @@ curl <ip> -s -L | grep "title\|href" | sed -e 's/^[[:space:]]*//'
 
 ### URL brute force
 
-see [Enumeration/Webserver scanning](../01-Enumeration/03-Webserver-scanning.md)
+see [Enumeration/Webserver scanning](../01-enumeration/03-webserver-scanning.md)
 
 ### Scrape website 
 

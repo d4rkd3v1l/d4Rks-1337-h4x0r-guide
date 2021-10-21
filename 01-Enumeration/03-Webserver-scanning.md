@@ -2,7 +2,7 @@
 
 ## Related
 
-[Services/TCP/TCP 80, 443: HTTP(S)](../02-Services/01-tcp/TCP-80-443-HTTP.md)
+[Services/TCP/TCP 80, 443: HTTP(S)](../02-services/01-tcp/TCP-80-443-HTTP.md)
 
 ## Common wordlists
 
