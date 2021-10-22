@@ -10,7 +10,7 @@
 
 ## General
 
-Default admin account: `sa`
+Default admin account: `sa`  
 
 Interesting paths (example: Microsoft SQL Server 2017 14.00.1000.00)
 ```bash
@@ -55,8 +55,8 @@ nmap -p 1433 --script=ms-sql-brute.nse --script-args userdb<users-file,passdb=<p
 
 ## Metasploit
 
-[Hunting for MSSQL - Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/hunting-mssql/)
-[How to Hack Databases: Cracking SQL Server Passwords & Owning the Server « Null Byte :: WonderHowTo](https://null-byte.wonderhowto.com/how-to/hack-databases-cracking-sql-server-passwords-owning-server-0149636/)
+* [Hunting for MSSQL - Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/hunting-mssql/)
+* [How to Hack Databases: Cracking SQL Server Passwords & Owning the Server « Null Byte :: WonderHowTo](https://null-byte.wonderhowto.com/how-to/hack-databases-cracking-sql-server-passwords-owning-server-0149636/)
 
 Find MSSQL instances
 ```bash

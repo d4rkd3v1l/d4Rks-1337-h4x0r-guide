@@ -17,6 +17,6 @@ nmap -sV --script=imap-ntlm-info <ip>
 
 ### Nmap scripts
 
-imap-brute.nse
-imap-capabilities.nse
-imap-ntlm-info.nse
+* imap-brute.nse
+* imap-capabilities.nse
+* imap-ntlm-info.nse

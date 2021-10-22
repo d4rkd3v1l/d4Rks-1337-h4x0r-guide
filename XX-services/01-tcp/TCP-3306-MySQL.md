@@ -31,8 +31,8 @@ select @@hostname, @@tmpdir, @@version, @@version_compile_machine, @@plugin_dir
 
 ## User defined functions (UDF)
 
-Run C code and allows basically everything (system calls, etc.)
-[Gaining a Root shell using MySQL User Defined Functions and SETUID Binaries | Infamous SYN](https://infamoussyn.wordpress.com/2014/07/11/gaining-a-root-shell-using-mysql-user-defined-functions-and-setuid-binaries/)
+Run C code and allows basically everything (system calls, etc.)  
+[Gaining a Root shell using MySQL User Defined Functions and SETUID Binaries | Infamous SYN](https://infamoussyn.wordpress.com/2014/07/11/gaining-a-root-shell-using-mysql-user-defined-functions-and-setuid-binaries/)  
 https://0xdeadbeef.info/exploits/raptor_udf2.c
 
 ### Compile exploit

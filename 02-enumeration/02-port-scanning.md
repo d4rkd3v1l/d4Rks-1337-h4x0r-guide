@@ -105,12 +105,12 @@ nc -nvv -w 1 -z <ip> <port-range>
 nc -nv -u -z -w 1 <ip> <port-range>
 ```
 
-No response means port is open, otherwise a ICMP packet `port unreachable` is sent back.
+No response means port is open, otherwise a ICMP packet `port unreachable` is sent back.  
 **BUT:** Response may get dropped (firewalls, routers, ...) -> false positive
 
 ## Port knocking
 
-> In computer networking, port knocking is a method of externally opening ports on a firewall by generating a connection attempt on a set of prespecified closed ports. 
+> In computer networking, port knocking is a method of externally opening ports on a firewall by generating a connection attempt on a set of prespecified closed ports.
 >
 >  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Port_knocking)</cite>
 

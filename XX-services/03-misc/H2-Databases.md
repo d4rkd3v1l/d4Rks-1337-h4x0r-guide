@@ -1,6 +1,8 @@
 # H2 Databases
 
 > H2 is a relational database management system written in Java. It can be embedded in Java applications or run in client-server mode.  
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/H2_(DBMS))</cite>
 
 ## RCE
 

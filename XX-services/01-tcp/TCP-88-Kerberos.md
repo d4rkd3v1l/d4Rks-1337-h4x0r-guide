@@ -6,13 +6,13 @@
 
 ## Related
 
-[Active Directoy](bear://x-callback-url/open-note?id=5C9EC040-0001-45F1-852C-769DB3092467-524-00001FFA6E2A0DB1)
-[TCP 389: LDAP](bear://x-callback-url/open-note?id=21D3D852-FB60-4125-BA88-A3E7637264CD-622-00000420E636375E)
-[Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453)
+* [Active Directoy](bear://x-callback-url/open-note?id=5C9EC040-0001-45F1-852C-769DB3092467-524-00001FFA6E2A0DB1)
+* [TCP 389: LDAP](bear://x-callback-url/open-note?id=21D3D852-FB60-4125-BA88-A3E7637264CD-622-00000420E636375E)
+* [Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453)
 
 ## kerbrute
 
-A tool to perform Kerberos pre-auth bruteforcing
+A tool to perform Kerberos pre-auth bruteforcing  
 [GitHub - ropnop/kerbrute](https://github.com/ropnop/kerbrute)
 
 Enumerate users
@@ -39,9 +39,9 @@ python /usr/share/kerberoast/tgsrepcrack.py <wordlist> <exported-tickets-file>
 
 ## Sync time
 
-It's necessary to sync the client time to the domain controller. 
+It's necessary to sync the client time to the domain controller.  
 
-**Error** (when not synced)
+**Error** (when not synced)  
 > SessionError: KRB_AP_ERR_SKEW(Clock skew too great)  
 
 ### ntpdate

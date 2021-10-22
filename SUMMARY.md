@@ -30,7 +30,7 @@ TODO: OSINT, Google Dorking, etc.
     * [TODO: Template Injection]()
 
 * File inclusions
-    * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusions/01-file-inclusions.md)
+    * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusion/01-file-inclusions.md)
 
 * Buffer overflows
     * [TODO]()
@@ -108,7 +108,7 @@ TODO: OSINT, Google Dorking, etc.
 
 ## Misc
 
-* [bash](XX-misc/01-bash.md)
+* [Bash](XX-misc/01-bash.md)
 * [Wordlists and dictionaries](XX-misc/02-wordlists-dictionaries.md)
 * [Metasploit Framework (MSF)](XX-misc/03-metasploit-framework.md)
 * [Msfvenom](XX-misc/04-msfvenom.md)

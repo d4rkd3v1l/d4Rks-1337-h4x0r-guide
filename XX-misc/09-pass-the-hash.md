@@ -1,6 +1,6 @@
 # Pass the Hash (PtH)
 
-> In cryptanalysis and computer security, pass the hash is a hacking technique that allows an attacker to authenticate to a remote server or service by using the underlying NTLM or LanMan hash of a user's password, instead of requiring the associated plaintext password as is normally the case.   
+> In cryptanalysis and computer security, pass the hash is a hacking technique that allows an attacker to authenticate to a remote server or service by using the underlying NTLM or LanMan hash of a user's password, instead of requiring the associated plaintext password as is normally the case.  
 >
 > -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Pass_the_hash)</cite>
 

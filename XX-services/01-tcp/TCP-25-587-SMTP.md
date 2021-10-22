@@ -35,12 +35,12 @@ for user in $(cat users.txt); do echo VRFY $user | nc -nv -w 1 <ip> 25 2>/dev/nu
 
 ### Nmap scripts
 
-smtp-brute.nse
-smtp-commands.nse
-smtp-enum-users.nse
-smtp-ntlm-info.nse
-smtp-open-relay.nse
-smtp-strangeport.nse
-smtp-vuln-cve2010-4344.nse
-smtp-vuln-cve2011-1720.nse
-smtp-vuln-cve2011-1764.nse
+* smtp-brute.nse
+* smtp-commands.nse
+* smtp-enum-users.nse
+* smtp-ntlm-info.nse
+* smtp-open-relay.nse
+* smtp-strangeport.nse
+* smtp-vuln-cve2010-4344.nse
+* smtp-vuln-cve2011-1720.nse
+* smtp-vuln-cve2011-1764.nse

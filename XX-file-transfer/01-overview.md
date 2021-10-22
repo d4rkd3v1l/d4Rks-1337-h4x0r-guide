@@ -15,7 +15,6 @@ Start apache
 ```bash
 sudo systemctl start apache2
 ```
-
 Default directory `/var/www/html`
 
 ### SMB
@@ -82,7 +81,6 @@ nc -nlvp <port> > file
 ```bash
 nc -nv <own-ip> <port> < file
 ```
-
 Note: There is no feedback about the progress, or when/if the upload finished.
 
 ### cat

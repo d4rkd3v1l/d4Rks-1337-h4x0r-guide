@@ -1,10 +1,12 @@
 # IPsec
 
 > **Internet Protocol Security (IPsec)** is a secure network protocol suite that authenticates and encrypts the  packets of data to provide secure encrypted communication between two computers over an Internet Protocol network. It is used in virtual private networks (VPNs).  
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/IPsec)</cite>
 
 ## ike-scan
 
-The IKE Scanner - Discover and fingerprint IKE hosts (IPsec VPN Servers)
+The IKE Scanner - Discover and fingerprint IKE hosts (IPsec VPN Servers)  
 [GitHub - royhills/ike-scan](https://github.com/royhills/ike-scan)
 
 ```bash
@@ -14,7 +16,7 @@ ike-scan -A -M <ip>
 
 ## Strongswan
 
-IPsec VPN for Linux, Android, FreeBSD, Mac OS X, Windows
+IPsec VPN for Linux, Android, FreeBSD, Mac OS X, Windows  
 [strongSwan](https://www.strongswan.org)
 
 ```bash
@@ -23,9 +25,8 @@ apt install strongswan
 
 ### configure
 
-/etc/ipsec.secrets
-
--> Add line `<target-ip> %any: PSK "<PSK>"`
+/etc/ipsec.secrets  
+-> Add line `<target-ip> %any: PSK "<PSK>"`  
 
 /etc/ipsec.conf
 ```

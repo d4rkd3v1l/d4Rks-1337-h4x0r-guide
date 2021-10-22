@@ -53,7 +53,7 @@ sudo ngrep -i -d tun0 's.?a.?m.?b.?a.*[[:digit:]]'
 
 ### SMBMap
 
-SMBMap is a handy SMB enumeration tool
+SMBMap is a handy SMB enumeration tool  
 [GitHub - ShawnDEvans/smbmap](https://github.com/ShawnDEvans/smbmap)
 ```bash
 apt install smbmap
@@ -80,7 +80,7 @@ smbmap -R <folder> -H <ip> -A Groups.xml -q
 
 FTP-like client to access SMB/CIFS resources on servers
 
-**list shares**
+**list shares**  
 Unauthenticated
 ```bash
 smbclient -N -L //<ip>
@@ -96,7 +96,7 @@ Mount share
 ```bash
 smbclient //<ip>/share
 ```
-(look for files, containing `password`, `pwd`, `admin`, `user`, `connect`, etc.)
+(look for files, containing `password`, `pwd`, `admin`, `user`, `connect`, etc.)  
 
 Download file
 ```bash
@@ -130,16 +130,16 @@ gpp-decrypt <Groups.xml-cpassword>
 
 ### smbexec
 
-A rapid psexec style attack with samba tools
-[GitHub - brav0hax/smbexec](https://github.com/brav0hax/smbexec)
-[GitHub - 404NetworkError/smbexec at fixes](https://github.com/404NetworkError/smbexec/tree/fixes)
+A rapid psexec style attack with samba tools  
+* [GitHub - brav0hax/smbexec](https://github.com/brav0hax/smbexec)
+* [GitHub - 404NetworkError/smbexec at fixes](https://github.com/404NetworkError/smbexec/tree/fixes)
 
 grab password hashes from domain controller
 ```bash
 ./smbexec
 ```
--> 3 "obain hashes"
--> 2 "domain controllers"
+-> 3 "obain hashes"  
+-> 2 "domain controllers"  
 
 ### crackmapexec
 
@@ -148,12 +148,10 @@ TODO
 ## null sessions
 
 Pre Windows 2003, XP SP2
-
 ```bash
 rpcclient -U "" <ip>
 ```
-
--> enter empty password
+-> Enter empty password
 
 ```bash
 srvinfo

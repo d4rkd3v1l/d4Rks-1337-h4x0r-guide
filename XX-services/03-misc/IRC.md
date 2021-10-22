@@ -1,5 +1,7 @@
 # IRC
-> Internet Relay Chat is an application layer protocol that facilitates communication in the form of text. The chat process works on a client/server networking model.    
+> Internet Relay Chat is an application layer protocol that facilitates communication in the form of text. The chat process works on a client/server networking model.
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</cite>
 
 ## Authenticate
 
@@ -15,7 +17,7 @@ USER <anyNickname> <anyServerName> AndComment :<anyComment>
 
 ## Backdoor in Unreal IRC
 
-[A backdoor in UnrealIRCd LWN.net](https://lwn.net/Articles/392201/)
+[A backdoor in UnrealIRCd LWN.net](https://lwn.net/Articles/392201/)  
 
 Listen for icmp message
 ```bash

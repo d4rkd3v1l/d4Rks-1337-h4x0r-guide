@@ -1,8 +1,8 @@
 # Impacket
 
 > Impacket is a collection of Python classes for working with network protocols.  
-[GitHub - SecureAuthCorp/impacket](https://github.com/SecureAuthCorp/impacket)
-[Fun with network protocols, using Python and Impacket | Andrea Fortuna](https://www.andreafortuna.org/2018/06/18/fun-with-network-protocols-using-python-and-impacket/)
+* [GitHub - SecureAuthCorp/impacket](https://github.com/SecureAuthCorp/impacket)  
+* [Fun with network protocols, using Python and Impacket | Andrea Fortuna](https://www.andreafortuna.org/2018/06/18/fun-with-network-protocols-using-python-and-impacket/)
 
 ## Related
 

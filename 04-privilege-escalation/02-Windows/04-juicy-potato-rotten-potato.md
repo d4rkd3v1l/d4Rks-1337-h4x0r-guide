@@ -9,10 +9,10 @@ SeImpersonatePrivilege
 
 ## JuicyPotato
 > A sugared version of RottenPotatoNG, with a bit of juice, i.e. another Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM.  
-[Releases · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/releases)
--> https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
+[Releases · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/releases)  
+-> https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe  
 
-⚠️ **CAUTION: Windows 10 / Server 2019** ⚠️
+⚠️ **CAUTION: Windows 10 / Server 2019** ⚠️  
 
 [No more rotten/juicy potato? – Decoder's Blog](https://decoder.cloud/2018/10/29/no-more-rotten-juicy-potato/)
 
@@ -42,13 +42,13 @@ Execute
 ```
 .\JuicyPotato.exe -t * -p C:\Users\<user>\Documents\shell.bat -l 1234
 ```
- -> Currently unsure why `l` is needed
+ -> Currently unsure why `l` is needed  
 
-⚠️ **Troubleshooting** ⚠️
+⚠️ **Troubleshooting** ⚠️  
 
-If not working (e.g. error 10038) try another `clsid` from 
-* [Windows CLSID | juicy-potato](http://ohpe.it/juicy-potato/CLSID/)
-*  [juicy-potato/CLSID/Windows_Server_2008_R2_Enterprise at master · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/tree/master/CLSID/Windows_Server_2008_R2_Enterprise)
+If not working (e.g. error 10038) try another `clsid` from  
+* [Windows CLSID | juicy-potato](http://ohpe.it/juicy-potato/CLSID/)  
+* [juicy-potato/CLSID/Windows_Server_2008_R2_Enterprise at master · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/tree/master/CLSID/Windows_Server_2008_R2_Enterprise)
 
 ```
  -c '{<cls-id>}'
@@ -57,8 +57,8 @@ If not working (e.g. error 10038) try another `clsid` from
 ## RottenPotatoNG
 
 > New version of RottenPotato as a C++ DLL and standalone C++ binary - no need for meterpreter or other tools.  
-* [GitHub - breenmachine/RottenPotatoNG](https://github.com/breenmachine/RottenPotatoNG)
-* [Abusing Token Privileges For Windows Local Privilege Escalation](https://foxglovesecurity.com/2017/08/25/abusing-token-privileges-for-windows-local-privilege-escalation/)
+* [GitHub - breenmachine/RottenPotatoNG](https://github.com/breenmachine/RottenPotatoNG)  
+* [Abusing Token Privileges For Windows Local Privilege Escalation](https://foxglovesecurity.com/2017/08/25/abusing-token-privileges-for-windows-local-privilege-escalation/)  
 
 In msf meterpreter (multi/handler)
 ```

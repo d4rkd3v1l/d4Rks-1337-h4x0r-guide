@@ -49,7 +49,7 @@ $fe = [System.Text.Encoding]::UTF8.GetBytes($fc)
 
 ## Nishang
 
-> Offensive PowerShell for red team, penetration testing and offensive security.
+> Offensive PowerShell for red team, penetration testing and offensive security.  
 [GitHub - samratashok/nishang](https://github.com/samratashok/nishang)
 
 Gather information
@@ -79,7 +79,7 @@ powershell -NoProfile -ExecutionPolicy unrestricted -Command IEX (New-Object Sys
 
 ## PowerShell-Suite
 
-> This is a collection of PowerShell utilities I put together either for fun or because I had a narrow application in mind.
+> This is a collection of PowerShell utilities I put together either for fun or because I had a narrow application in mind.  
 [GitHub - FuzzySecurity/PowerShell-Suite](https://github.com/FuzzySecurity/PowerShell-Suite)
 
 ```powershell

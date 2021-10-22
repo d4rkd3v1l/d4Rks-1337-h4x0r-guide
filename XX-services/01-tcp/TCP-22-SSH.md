@@ -20,9 +20,9 @@ chmod 600 <file>
 
 ### Conventions
 
-**Naming**
-Default key: `id_rsa`
-User key: `<user>_key`
+**Naming**  
+Default key: `id_rsa`  
+User key: `<user>_key`  
 
 ## SSH package version
 
@@ -37,8 +37,8 @@ SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2
 
 ## SSH key fingerprint
 
- ```bash
- ssh root@<ip>
+```bash
+ssh root@<ip>
 ```
 
 ```
@@ -47,7 +47,7 @@ ECDSA key fingerprint is SHA256:AibCWx1KvdJmNHd3KVsYksWtveJPdLZAsHMIChsTeHE.
 Are you sure you want to continue connecting (yes/no)?
 ```
 
-Now what happens if you see multiple SSH services on different ports which have the same key? What could it mean if they are different? Why would you see the same key on another box? All questions to think about... As this is not the case here, we will not answer that _(_**_cough_**_ but it is in the labs _**_cough_**_)_.
+Now what happens if you see multiple SSH services on different ports which have the same key? What could it mean if they are different? Why would you see the same key on another box? All questions to think about... As this is not the case here, we will not answer that (**cough** but it is in the labs **cough**).  
 On this subject: A useful resource ~  [https://github.com/rapid7/ssh-badkeys](https://github.com/rapid7/ssh-badkeys) 
 
 ## SSH banner
@@ -58,14 +58,13 @@ Warning: Permanently added '<ip>' (ECDSA) to the list of known hosts.
 root@<ip>'s password:^C
 ```
 
-But we DO get a password prompt, so the machine may accept SOME users with a password, rather than keys (or both!).
- [Example of a banner](http://www.tecmint.com/wp-content/uploads/2012/11/SSH-Banner.png)  (able to get some information from it too - domain name!).
+But we DO get a password prompt, so the machine may accept SOME users with a password, rather than keys (or both!).  
+[Example of a banner](http://www.tecmint.com/wp-content/uploads/2012/11/SSH-Banner.png)  (able to get some information from it too - domain name!).  
 
 
 ## Nmap Scripts
 
--> automate fingerprinting and banner grabbing
-
+-> Automate fingerprinting and banner grabbing
 ```bash
 ls -lh /usr/share/nmap/scripts/*ssh*
 ```
@@ -75,7 +74,6 @@ ls -lh /usr/share/nmap/scripts/*ssh*
 -rw-r--r-- 1 root root  16K Mar 31 08:51 /usr/share/nmap/scripts/ssh-hostkey.nse
 -rw-r--r-- 1 root root 1.5K Mar 31 08:51 /usr/share/nmap/scripts/sshv1.nse
 ```
-
 
 ```bash
 nmap <ip> -p 22 -sV --script=ssh-hostkey

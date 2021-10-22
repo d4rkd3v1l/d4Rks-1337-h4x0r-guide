@@ -1,6 +1,6 @@
 # Metasploit Framework (MSF)
 
-> The world’s most used penetration testing framework
+> The world’s most used penetration testing framework  
 [Metasploit](https://www.metasploit.com)
 
 ## start
@@ -180,7 +180,6 @@ portfwd add -l <port> -r 127.0.0.1 -p <port>
 ## Resource Scripts
 
 Resource scripts provide an easy way for you to automate repetitive tasks in Metasploit.
-
 ```bash
 msfconsole -r demo.rc
 ```

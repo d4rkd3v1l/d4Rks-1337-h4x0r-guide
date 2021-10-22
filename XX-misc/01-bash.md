@@ -21,8 +21,7 @@ List commands, current user can run as root
 ```bash
 sudo -l
 ```
--> [GTFOBins](https://gtfobins.github.io/#)
-
+-> [GTFOBins](https://gtfobins.github.io/#)  
 Run the command as a user other than the default target user (usually root).
 ```bash
 sudo -u <user> <command>
@@ -87,26 +86,26 @@ authbind <command>
 
 #### File
 
-Encode `base64 -w 0 <file> > <base64file>`
-Decode `base64 -d <base64file> > <file>`
+Encode `base64 -w 0 <file> > <base64file>`  
+Decode `base64 -d <base64file> > <file>`  
 
 #### String
 
-Encode `echo -n <string> | base64`
-Decode `echo <base64string> | base64 -d`
+Encode `echo -n <string> | base64`  
+Decode `echo <base64string> | base64 -d`  
 
 ### Windows
 
 #### File
 
-Encode `certutil -encode <file> tmp.b64 && findstr /v /c:- tmp.b64 > <base64file>`
-Decode `certutil -decode <base64file> <file>`
+Encode `certutil -encode <file> tmp.b64 && findstr /v /c:- tmp.b64 > <base64file>`  
+Decode `certutil -decode <base64file> <file>`  
 
 ## grep
 
-Print  x-lines **B**efore match
-Print  x-lines **A**fter match
-Ignore-case
+Print  x-lines **B**efore match  
+Print  x-lines **A**fter match  
+Ignore-case  
 ```bash
 grep -i -A5 -B5 <string> <filename>
 ```
@@ -179,6 +178,7 @@ man ascii
 ```
 
 ## ltrace / strace
+
 Trace library calls of a given program.
 ```bash
 ltrace ./<programm>
@@ -242,8 +242,8 @@ guestmount --add <vhd-file> --inspector --ro -v /mnt/vhd
 
 ### .scf
 
-[https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)
-place scf file in windows share to gather hashes
+[https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/](https://1337red.wordpress.com/using-a-scf-file-to-gather-hashes/)  
+Place scf file in windows share to gather hashes
 
 ### Images with hidden content
 

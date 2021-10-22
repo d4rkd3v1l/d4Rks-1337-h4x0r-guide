@@ -5,6 +5,7 @@
 >  -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/Redis)</cite>
 
 ## General
+
 [6379 - Pentesting Redis - HackTricks](https://book.hacktricks.xyz/pentesting/6379-pentesting-redis)
 
 ## Enumeration

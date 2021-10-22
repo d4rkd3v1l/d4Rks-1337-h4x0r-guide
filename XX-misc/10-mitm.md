@@ -8,7 +8,6 @@
 
 ### Ettercap (Linux)
 
-Ettercap Project
 [GitHub - Ettercap/ettercap](https://github.com/Ettercap/ettercap)
 
 ```bash
@@ -19,7 +18,7 @@ ettercap -TqM arp: remote /<gateway-ip>/ /<target-ip>/
 
 ### Evil FOCA (Windows)
 
-> Evil Foca is a tool for security pentesters and auditors whose purpose it is to test security in IPv4 and IPv6 data networks.
+> Evil Foca is a tool for security pentesters and auditors whose purpose it is to test security in IPv4 and IPv6 data networks.  
 [Evil FOCA](https://www.elevenpaths.com/labstools/evil-foca/index.html)
 
 ## Sidejacking
@@ -59,10 +58,10 @@ hamster
 
 ### Firesheep
 
-> A Firefox extension that demonstrates HTTP session hijacking attacks.
+> A Firefox extension that demonstrates HTTP session hijacking attacks.  
 [GitHub - codebutler/firesheep](https://github.com/codebutler/firesheep)
 
 ### SSLStrip
 
-> A tool for exploiting Moxie Marlinspike's SSL "stripping" attack.
+> A tool for exploiting Moxie Marlinspike's SSL "stripping" attack.  
 [GitHub - moxie0/sslstrip](https://github.com/moxie0/sslstrip)
