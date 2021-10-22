@@ -1,8 +1,13 @@
 # Crypto
-- - - -
+
 ## Decrypt file
+
 ### Find cipher used for encryption
-`ciphers.lst`
+
+```bash
+ciphers.lst
+```
+
 ```
 -aes-256-cbc
 -aes-128-cbc
@@ -16,10 +21,12 @@
 -des
 ```
 
-generate files of various lengths (in steps of 8)
-`for i in $(seq 0 8 176); do python -c "print 'A'*$i" > $i; done`
+Generate files of various lengths (in steps of 8)
+```bash
+for i in $(seq 0 8 176); do python -c "print 'A'*$i" > $i; done
+```
 
-generate encrypted files with various ciphers if various length
+Generate encrypted files with various ciphers if various length
 ```bash
 for cipher in $(cat ciphers.lst); do
 	for length in $(ls | grep ^[0-9]); do
@@ -28,13 +35,17 @@ for cipher in $(cat ciphers.lst); do
 done
 ```
 
-check which of those match the length of the encrypted file
-`ls *.enc | xargs wc -c | grep '176 '`
+Check which of those match the length of the encrypted file
+```bash
+ls *.enc | xargs wc -c | grep '176 '
+```
 
-crack it^^
-`bruteforce-salted-openssl -t 10 -f <wordlist> -c aes-256-cbc -d sha256 <encrypted-file>`
+Crack it^^
+```bash
+bruteforce-salted-openssl -t 10 -f <wordlist> -c aes-256-cbc -d sha256 <encrypted-file>
+```
 
-decrypt the file
-`openssl enc -aes-256-cbc -d -in <encrypted-file> -out <decrypted-file> -k <password> `
-
-- - - -
+Decrypt the file
+```bash
+openssl enc -aes-256-cbc -d -in <encrypted-file> -out <decrypted-file> -k <password>
+```

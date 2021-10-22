@@ -111,7 +111,7 @@ TODO: OSINT, Google Dorking, etc.
 * [bash](XX-misc/01-bash.md)
 * [Wordlists and dictionaries](XX-misc/02-wordlists-dictionaries.md)
 * [Metasploit Framework (MSF)](XX-misc/03-metasploit-framework.md)
-* [MSFVenom](XX-misc/04-msfvenom.md)
+* [Msfvenom](XX-misc/04-msfvenom.md)
 * [Firefox extensions](XX-misc/05-firefox-extensions.md)
 * [PowerShell](XX-misc/06-powershell.md)
 * [PowerShell on Linux](XX-misc/07-powershell-linux.md)

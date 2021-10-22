@@ -1,6 +1,8 @@
-# Powershell on Kali (pwsh)
-## Basic commands
-start powershell
-`pwsh`
+# Powershell on Linux (pwsh)
 
-- - - -
+## Basic commands
+
+Start powershell
+```bash
+pwsh
+```
