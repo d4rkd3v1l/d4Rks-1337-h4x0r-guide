@@ -1,7 +1,8 @@
 # Summary
 
 ## Reconnaissance
-TODO: OSINT, Google Dorking, etc.
+
+* [Recon (TODO)](/01-reconnaissance/01-reconnaissance.md)
 
 ## Enumeration
 
@@ -25,15 +26,17 @@ TODO: OSINT, Google Dorking, etc.
     * [Passwords & credentials](/03-exploitation/02-passwords/04-passwords-credentials.md)
 
 * Injections
-    * [SQL Injection (SQLi)](/03-exploitation/03-injections/01-SQL-injection.md)
-    * [Cross Site Scripting (XSS)](/03-exploitation/03-injections/02-cross-site-scripting.md)
-    * [TODO: Template Injection](/)
+    * [SQL injection (SQLi)](/03-exploitation/03-injections/01-SQL-injection.md)
+    * [Cross site scripting (XSS)](/03-exploitation/03-injections/02-cross-site-scripting.md)
+    * [Template injection (TODO)](/03-exploitation/03-injections/03-template-injection.md)
 
 * File inclusions
     * [File inclusions (LFI, RFI)](/03-exploitation/04-file-inclusion/01-file-inclusions.md)
 
-* Buffer overflows
-    * [TODO](/)
+* Buffer overflow
+    * [General](/03-exploitation/05-buffer-overflow/01-general.md)
+    * [Linux](/03-exploitation/05-buffer-overflow/02-linux.md)
+    * [Windows](/03-exploitation/05-buffer-overflow/03-windows.md)
 
 * Misc
     * [Evasion](/03-exploitation/06-misc/01-evasion.md)
