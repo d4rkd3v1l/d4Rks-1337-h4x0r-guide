@@ -2,7 +2,7 @@
 
 ## Related
 
-[process monitoring](bear://x-callback-url/open-note?id=61C0A322-548D-478E-8957-CA6438187AFC-13681-000027246D90369E)
+[Process monitoring](/02-enumeration/06-process-monitoring.md)
 
 ## find
 

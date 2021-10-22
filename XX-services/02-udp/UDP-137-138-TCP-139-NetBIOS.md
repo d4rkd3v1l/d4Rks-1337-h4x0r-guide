@@ -6,7 +6,7 @@
 
 ## Related
 
-[TCP 139, 445: NetBIOS, SMB](bear://x-callback-url/open-note?id=4D6079DB-C18C-49F5-8E2B-94975FF872D4-962-0000060387089A2B)
+[TCP 139, 445: NetBIOS, SMB](/XX-services/01-tcp/TCP-139-445-NetBIOS-SMB.md)
 
 ## nbtscan
 

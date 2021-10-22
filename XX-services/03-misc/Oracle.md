@@ -44,7 +44,10 @@ odat.py passwordguesser -d <sid> --accounts-file <file> -s <ip>
 
 ## SQL Plus
 
-> **SQL Plus** is the most basic  [Oracle Database](https://en.wikipedia.org/wiki/Oracle_Database)  utility, with a basic  [command-line interface](https://en.wikipedia.org/wiki/Command-line_interface) , commonly used by users, administrators, and programmers.  
+> **SQL Plus** is the most basic Oracle Database utility, with a basic command-line interface, commonly used by users, administrators, and programmers.  
+>
+> -- <cite>[Wikipedia](https://en.wikipedia.org/wiki/SQL_Plus)</cite>
+
 
 ```bash
 sqlplus <user>/<pass>@<ip>:<port>/<sid> as sysdba

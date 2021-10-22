@@ -2,7 +2,7 @@
 
 ## Related
 
-[Services/TCP/TCP 80, 443: HTTP(S)](../XX-services/01-tcp/TCP-80-443-HTTP.md)
+[TCP 80, 443: HTTP(S)](/XX-services/01-tcp/TCP-80-443-HTTP.md)
 
 ## Common wordlists
 
@@ -82,6 +82,6 @@ dirb <host>
 dirbuster
 ```
 
-## wappalyzer
-(firefox add-on)  
-[Firefox Addons](bear://x-callback-url/open-note?id=8F18F978-74A0-4CF3-A773-3B37C760CC47-456-00003D4EDE872B04)
+## wappalyzer (firefox add-on)
+
+See [Firefox extensions](/XX-misc/05-firefox-extensions.md)

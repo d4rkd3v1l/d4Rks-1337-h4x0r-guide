@@ -13,12 +13,12 @@
 
 * [LOLBAS](https://lolbas-project.github.io)
 * [GitHub - hfiref0x/UACME: Defeating Windows User Account Control](https://github.com/hfiref0x/UACME)
-* [PowerSploit](04-privilege-escalation/02-windows/03-power-sploit.md)
-* [JAWS](04-privilege-escalation/02-windows/05-jaws.md)
-* [Juicy Potato, Rotten Potato (NG)](04-privilege-escalation/02-windows/04-juicy-potato-rotten-potato.md) 
-* [Mimikatz](04-privilege-escalation/02-windows/02-mimikatz.md)
-* [SILENTTRINITY](04-privilege-escalation/02-windows/07-silenttrinity.md)
-* [Empire](04-privilege-escalation/02-windows/06-empire.md)
+* [PowerSploit](/04-privilege-escalation/02-windows/03-power-sploit.md)
+* [JAWS](/04-privilege-escalation/02-windows/05-jaws.md)
+* [Juicy Potato, Rotten Potato (NG)](/04-privilege-escalation/02-windows/04-juicy-potato-rotten-potato.md) 
+* [Mimikatz](/04-privilege-escalation/02-windows/02-mimikatz.md)
+* [SILENTTRINITY](/04-privilege-escalation/02-windows/07-silenttrinity.md)
+* [Empire](/04-privilege-escalation/02-windows/06-empire.md)
 
 ## Exploit Suggester
 
@@ -43,11 +43,11 @@ cd <share-name>:
 
 ### PowerSploit
 
-[PowerSploit](04-privilege-escalation/02-windows/03-power-sploit.md)
+[PowerSploit](/04-privilege-escalation/02-windows/03-power-sploit.md)
 
 ### JAWS
 
-[JAWS](04-privilege-escalation/02-windows/05-jaws.md)
+[JAWS](/04-privilege-escalation/02-windows/05-jaws.md)
 
 ### Watson
 > Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities  

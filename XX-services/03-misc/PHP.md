@@ -8,7 +8,7 @@
 
 ### File inclusions (LFI & RFI)
 
-[file inclusions (LFI & RFI)](bear://x-callback-url/open-note?id=E14A97D1-E258-4859-8830-ABEF17844D28-468-00000168B95D0042)
+See [File inclusions (LFI, RFI)](/03-exploitation/04-file-inclusion/01-file-inclusions.md)
 
 ### Code Execution
 

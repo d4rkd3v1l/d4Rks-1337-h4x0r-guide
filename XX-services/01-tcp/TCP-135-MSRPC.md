@@ -6,7 +6,7 @@
 
 ## Related
 
-[Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453)
+* [Impacket](/XX-misc/08-impacket.md)
 
 ## Enumeration
 

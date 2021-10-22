@@ -6,9 +6,9 @@
 
 ## Related
 
-* [Active Directoy](bear://x-callback-url/open-note?id=5C9EC040-0001-45F1-852C-769DB3092467-524-00001FFA6E2A0DB1)
-* [TCP 389: LDAP](bear://x-callback-url/open-note?id=21D3D852-FB60-4125-BA88-A3E7637264CD-622-00000420E636375E)
-* [Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453)
+* [Active Directoy](/XX-services/03-misc/Active-Directoy.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
+* [Impacket](/XX-misc/08-impacket.md)
 
 ## kerbrute
 
@@ -32,7 +32,7 @@ Install
 sudo apt install kerberoast
 ```
 
-Use exported tickets from [Mimikatz](bear://x-callback-url/open-note?id=56BE74BE-2DCB-4F64-9CEE-AFE5BE6597BD-7113-00001201E35778D7)
+Use exported tickets from [Mimikatz](/04-privilege-escalation/02-windows/02-mimikatz.md)
 ```bash
 python /usr/share/kerberoast/tgsrepcrack.py <wordlist> <exported-tickets-file>
 ```

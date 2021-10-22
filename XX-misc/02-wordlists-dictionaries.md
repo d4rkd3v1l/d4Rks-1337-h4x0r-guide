@@ -2,7 +2,7 @@
 
 ## Related
 
-[Passwords & credentials](bear://x-callback-url/open-note?id=A4162ADE-3D9B-4D56-8B79-5A4A20C539B3-13681-0000298B40154364)
+[Passwords & credentials](/03-exploitation/02-passwords/04-passwords-credentials.md)
 
 ## Wordlists
 
@@ -12,8 +12,9 @@
 
 ## Password Lists
 
-### [rockyou.txt](http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2)
+### rockyou
 
+[rockyou.txt](http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2)  
 Compromise from 2009 from a social game and advertising website  
 
 ### msf
@@ -22,12 +23,14 @@ Compromise from 2009 from a social game and advertising website
 /usr/share/metasploit-framework/data/wordlists
 ```
 
-### [crackstation-human-only](http://download.g0tmi1k.com/wordlists/large/crackstation-human-only.txt.gz)
+### crackstation-human-only
 
+[crackstation-human-only](http://download.g0tmi1k.com/wordlists/large/crackstation-human-only.txt.gz)  
 Real human passwords leaked from various website databases.  
 
-### [m3g0tr0n_Passwords_WordList_CLEANED](http://wordbook.xyz/download/big/m3g9tr0n_Passwords_WordList_CLEANED.zip)
+### m3g0tr0n_Passwords_WordList_CLEANED
 
+[m3g0tr0n_Passwords_WordList_CLEANED](http://wordbook.xyz/download/big/m3g9tr0n_Passwords_WordList_CLEANED.zip)  
 List of 122 Million Passwords
 
 ## SecLists

@@ -6,9 +6,9 @@
 
 ## Related
 
-* [TCP 88: Kerberos](bear://x-callback-url/open-note?id=737CB967-22F6-401E-9BEC-5D28FA7350F1-483-00001AB8DF3B4F91)
-* [TCP 389: LDAP](bear://x-callback-url/open-note?id=21D3D852-FB60-4125-BA88-A3E7637264CD-622-00000420E636375E)
-* [Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453)
+* [TCP 88: Kerberos](/XX-services/01-tcp/TCP-88-Kerberos.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
+* [Impacket](/XX-misc/08-impacket.md)
 
 ## General
 
@@ -64,11 +64,11 @@ lsadump::dcsync
 
 ## Pre-Auth attack
 
-[Getting Passwords When Kerberos Pre-Auth IS Enabled - YouTube](https://www.youtube.com/watch?v=VLA7x81i5Pw)
+[Getting Passwords When Kerberos Pre-Auth IS Enabled - YouTube](https://www.youtube.com/watch?v=VLA7x81i5Pw)  
 	1. sniff KRB auth packet  
 	2. crack using hashcat  
 
--> If no pre auth is required, just use [Impacket](bear://x-callback-url/open-note?id=8B82F3FA-7934-4517-98E9-ED74DD9C76EB-524-000018D307D11453) to pull hashes from AD.  
+-> If no pre auth is required, just use [Impacket](/XX-misc/08-impacket.md) to pull hashes from AD.  
 
 ## BloodHound
 

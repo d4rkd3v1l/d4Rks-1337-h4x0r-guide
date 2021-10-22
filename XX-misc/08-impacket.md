@@ -6,9 +6,9 @@
 
 ## Related
 
-* [Active Directoy](bear://x-callback-url/open-note?id=5C9EC040-0001-45F1-852C-769DB3092467-524-00001FFA6E2A0DB1)
-* [TCP 88: Kerberos](bear://x-callback-url/open-note?id=737CB967-22F6-401E-9BEC-5D28FA7350F1-483-00001AB8DF3B4F91)
-* [TCP 389: LDAP](bear://x-callback-url/open-note?id=21D3D852-FB60-4125-BA88-A3E7637264CD-622-00000420E636375E)
+* [Active Directoy](/XX-services/03-misc/Active-Directoy.md)
+* [TCP 88: Kerberos](/XX-services/01-tcp/TCP-88-Kerberos.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
 
 ## Dump hashes
 

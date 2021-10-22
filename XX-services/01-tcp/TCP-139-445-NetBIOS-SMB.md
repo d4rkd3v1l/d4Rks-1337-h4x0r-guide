@@ -11,7 +11,7 @@
 
 ## Related
 
-[UDP 137, 138, TCP 139: NetBIOS](bear://x-callback-url/open-note?id=E0AA4FC2-1382-437C-B64D-B9F1F8E72984-962-000006165E66E247)
+[UDP 137, 138, TCP 139: NetBIOS](/XX-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
 
 ## Enumeration
 

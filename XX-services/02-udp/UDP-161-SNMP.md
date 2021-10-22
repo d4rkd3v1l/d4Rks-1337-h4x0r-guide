@@ -13,8 +13,10 @@ nmap -sU --open -p 161 <ip>
 
 ## Management information Base (MiB)
 
-[IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/ssw_aix_53/eos/eos.htm)  
+[IBM Knowledge Center](https://www.ibm.com/support/knowledgecenter/ssw_aix_61/eos/eos.htm)  
 
+
+MiB | Description
 --- | ---
 1.3.6.1.2.1.25.1.6.0 | System Processes 
 1.3.6.1.2.1.25.4.2.1.2 | Running Programs 
@@ -28,6 +30,7 @@ Community strings
 [fuzzdb/wordlist-common-snmp-community-strings.txt at master · fuzzdb-project/fuzzdb · GitHub](https://github.com/fuzzdb-project/fuzzdb/blob/master/wordlists-misc/wordlist-common-snmp-community-strings.txt)  
 
 [GitHub - trailofbits/onesixtyone: Fast SNMP Scanner](https://github.com/trailofbits/onesixtyone)
+
 ```bash
 onesixtyone -c <community-strings-file> -i <ips>
 ```

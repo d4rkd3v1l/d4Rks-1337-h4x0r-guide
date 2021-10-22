@@ -6,7 +6,7 @@
 
 ## Related
 
-[Enumeration/Webserver scanning](../02-enumeration/03-webserver-scanning.md)
+[Enumeration/Webserver scanning](/02-enumeration/03-webserver-scanning.md)
 
 ## Information gathering
 
@@ -33,7 +33,7 @@ curl <ip> -s -L | grep "title\|href" | sed -e 's/^[[:space:]]*//'
 
 ### URL brute force
 
-See [Enumeration/Webserver scanning](../02-enumeration/03-webserver-scanning.md)
+See [Enumeration/Webserver scanning](/02-enumeration/03-webserver-scanning.md)
 
 ### Scrape website 
 
@@ -41,7 +41,7 @@ Scrapes a website to generate password list from words, found there
 ```bash
 cewl www.megacorpone.com -m 6 -w megacorp-cewl.txt
 ```
--> Mutate list using [John the Ripper (JTR)](bear://x-callback-url/open-note?id=A69AD893-511F-4CDD-9D75-10B42E4F3C16-3875-0000096AB4EACDA8)
+-> Mutate list using [John the Ripper (JTR)](/03-exploitation/02-passwords/02-john-the-ripper.md)
 
 ## .htaccess
 

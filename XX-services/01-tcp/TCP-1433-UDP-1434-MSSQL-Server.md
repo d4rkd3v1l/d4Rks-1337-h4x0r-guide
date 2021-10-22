@@ -6,7 +6,7 @@
 
 ## Related
 
-[SQSH](bear://x-callback-url/open-note?id=A954ECDE-8119-4CDE-85F6-AB8384D137FB-524-00001DF0A3A02467)
+[SQSH](/03-exploitation/06-misc/02-sqsh.md)
 
 ## General
 

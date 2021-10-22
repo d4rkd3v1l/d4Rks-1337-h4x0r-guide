@@ -26,8 +26,8 @@ sudo impacket-smbserver <share-name> <local-folder>
 
 ### FTP
 
-* [pure-ftpd](bear://x-callback-url/open-note?id=B518712B-3359-44F3-B0D3-9EA6BE22181F-3875-0000070802BBB6A3)
-* [TFTP](bear://x-callback-url/open-note?id=51A2CFAD-55E6-48D9-80EE-2C276B6E984B-3875-000007462EC1E7F0)
+* [Pure-FTPd](/XX-file-transfer/03-pure-ftpd.md)
+* [TFTP](/XX-file-transfer/04-tftp.md)
 
 ## Download files
 
@@ -36,7 +36,7 @@ sudo impacket-smbserver <share-name> <local-folder>
 ```bash
 wget <ip>:<port>/file.txt
 ```
-[more options](bear://x-callback-url/open-note?id=C8D9FB8D-F71D-4DDA-91BD-ACD1D9E81B8D-3875-000006E03E84135C)
+See also [Wget](/XX-file-transfer/02-wget.md)
 
 ### curl
 
@@ -62,7 +62,7 @@ certutil.exe -urlcache -split -f http://<host>/<file> <file>
 
 ### VBScript
 
-[wget clone](bear://x-callback-url/open-note?id=28725C72-DE77-4991-808F-B86F7981C4DD-3875-000006B7EDA0811B)
+See [VBScript: Wget clone](/XX-file-transfer/05-vbscript-wget-clone.md)
 
 ### BITSAdmin
 
