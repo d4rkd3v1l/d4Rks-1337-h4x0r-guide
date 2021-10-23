@@ -6,9 +6,9 @@
 
 ## Related
 
-* [Active Directoy](/XX-services/03-misc/Active-Directoy.md)
-* [TCP 88: Kerberos](/XX-services/01-tcp/TCP-88-Kerberos.md)
-* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
+* [Active Directoy](/11-services/03-misc/Active-Directoy.md)
+* [TCP 88: Kerberos](/11-services/01-tcp/TCP-88-Kerberos.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/11-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
 
 ## Dump hashes
 

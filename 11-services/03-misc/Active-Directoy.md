@@ -6,9 +6,9 @@
 
 ## Related
 
-* [TCP 88: Kerberos](/XX-services/01-tcp/TCP-88-Kerberos.md)
-* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
-* [Impacket](/XX-misc/08-impacket.md)
+* [TCP 88: Kerberos](/11-services/01-tcp/TCP-88-Kerberos.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/11-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
+* [Impacket](/13-misc/08-impacket.md)
 
 ## General
 
@@ -68,7 +68,7 @@ lsadump::dcsync
 	1. sniff KRB auth packet  
 	2. crack using hashcat  
 
--> If no pre auth is required, just use [Impacket](/XX-misc/08-impacket.md) to pull hashes from AD.  
+-> If no pre auth is required, just use [Impacket](/13-misc/08-impacket.md) to pull hashes from AD.  
 
 ## BloodHound
 

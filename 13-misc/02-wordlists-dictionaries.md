@@ -38,6 +38,9 @@ List of 122 Million Passwords
 > SecLists is the security tester’s companion. It’s a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.  
 [GitHub - danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
 
+Common usernames: `SecLists/Usernames/Names/names.txt`  
+Common passwords: `SecLists/Passwords/Common-Credentials/10-million-password-list-top-100.txt`  
+
 Search for default creds (e.g. for tomcat)
 ```bash
 find /usr/share/seclists | grep -i tomcat`

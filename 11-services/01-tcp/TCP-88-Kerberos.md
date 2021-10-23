@@ -6,9 +6,9 @@
 
 ## Related
 
-* [Active Directoy](/XX-services/03-misc/Active-Directoy.md)
-* [TCP 389, 636, 3268, 3269: LDAP](/XX-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
-* [Impacket](/XX-misc/08-impacket.md)
+* [Active Directoy](/11-services/03-misc/Active-Directoy.md)
+* [TCP 389, 636, 3268, 3269: LDAP](/11-services/01-tcp/TCP-389-636-3268-3269-LDAP.md)
+* [Impacket](/13-misc/08-impacket.md)
 
 ## kerbrute
 

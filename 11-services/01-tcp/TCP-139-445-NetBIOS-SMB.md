@@ -11,7 +11,7 @@
 
 ## Related
 
-[UDP 137, 138, TCP 139: NetBIOS](/XX-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
+[UDP 137, 138, TCP 139: NetBIOS](/11-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
 
 ## Enumeration
 

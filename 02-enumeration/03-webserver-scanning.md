@@ -2,7 +2,7 @@
 
 ## Related
 
-[TCP 80, 443: HTTP(S)](/XX-services/01-tcp/TCP-80-443-HTTP.md)
+[TCP 80, 443: HTTP(S)](/11-services/01-tcp/TCP-80-443-HTTP.md)
 
 ## Common wordlists
 
@@ -50,6 +50,20 @@ wfuzz -w <wordlist-file> —-hc 404 <host>/FUZZ/FUZ2Z
 wfuzz -c -w /usr/share/seclists/Discovery/Web-Content/common.txt --sh BBB <host>/file.php?param=FUZZ
 ```
 
+### fuff
+> Fast web fuzzer written in Go.  
+[fuff](https://github.com/ffuf/ffuf)
+
+Enumerate usernames
+```bash
+ffuf -w <wordlist-file> -X POST -d "email=FUZZ&password=x" -H "Content-Type: application/x-www-form-urlencoded" -u <url> -mr "email already exists"
+```
+
+Brute force passwords
+```bash
+ffuf -w emails.txt:W1,<password-file>:W2 -X POST -d "email=W1&password=W2" -H "Content-Type: application/x-www-form-urlencoded" -u <url> -fc 200
+```
+
 ## nikto
 
 [GitHub - sullo/nikto](https://github.com/sullo/nikto) - Web server scanner
@@ -84,4 +98,4 @@ dirbuster
 
 ## wappalyzer (firefox add-on)
 
-See [Firefox extensions](/XX-misc/05-firefox-extensions.md)
+See [Firefox extensions](/13-misc/05-firefox-extensions.md)
