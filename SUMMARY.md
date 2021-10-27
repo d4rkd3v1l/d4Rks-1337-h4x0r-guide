@@ -17,7 +17,7 @@
 
 ## Exploitation
 
-* [Shells](exploitation/shells/README.md)
+* [Shells]
   * [Shells](03-exploitation/01-shells/01-shells.md)
   * [Terminal config & TTY](03-exploitation/01-shells/02-terminal-config-TTY.md)
 * [Passwords](exploitation/passwords/README.md)
@@ -26,9 +26,10 @@
   * [Hydra](03-exploitation/02-passwords/03-hydra.md)
   * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
 * [Injections](exploitation/injections/README.md)
-  * [SQL injection (SQLi)](03-exploitation/03-injections/01-SQL-injection.md)
+  * [SQL injection (SQLi)](03-exploitation/03-injections/01-sql-injection.md)
   * [Cross site scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
-  * [Template injection (TODO)](03-exploitation/03-injections/03-template-injection.md)
+  * [XML external entity (XXE) (TODO)](03-exploitation/03-injections/03-xml-external-entity.md)
+  * [Template injection (TODO)](03-exploitation/03-injections/04-template-injection.md)
 * [File inclusions](exploitation/file-inclusions/README.md)
   * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusion/01-file-inclusions.md)
 * [Buffer overflow](exploitation/buffer-overflow/README.md)
@@ -41,7 +42,7 @@
 
 ## Privilege escalation
 
-* [Linux](privilege-escalation/linux/README.md)
+* [Linux]
   * [Overview](04-privilege-escalation/01-linux/01-overview.md)
 * [Windows](privilege-escalation/windows/README.md)
   * [Overview](04-privilege-escalation/02-windows/01-overview.md)
@@ -58,7 +59,7 @@
 
 ## Services
 
-* [TCP](services/tcp/README.md)
+* [TCP]
   * [TCP 21: FTP](11-services/01-tcp/TCP-21-FTP.md)
   * [TCP 22: SSH](11-services/01-tcp/TCP-22-SSH.md)
   * [TCP 23: Telnet](11-services/01-tcp/TCP-23-Telnet.md)
@@ -78,10 +79,10 @@
   * [TCP 3389: RDP](11-services/01-tcp/TCP-3389-RDP.md)
   * [TCP 5985: WinRM](11-services/01-tcp/TCP-5985-WinRM.md)
   * [TCP 6379: Redis](11-services/01-tcp/TCP-6379-Redis.md)
-* [UDP](services/udp/README.md)
+* [UDP]
   * [UDP 137, 138, TCP 139: NetBIOS](11-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
   * [UDP 161: SNMP](11-services/02-udp/UDP-161-SNMP.md)
-* [Misc](services/misc/README.md)
+* [Misc]
   * [Active Directoy](11-services/03-misc/Active-Directoy.md)
   * [Apache Tomcat](11-services/03-misc/Apache-Tomcat.md)
   * [H2 Databases](11-services/03-misc/H2-Databases.md)
@@ -105,7 +106,7 @@
 
 ## Misc
 
-* [Bash](13-misc/01-bash.md)
+* [Bash]
 * [Wordlists and dictionaries](13-misc/02-wordlists-dictionaries.md)
 * [Metasploit Framework (MSF)](13-misc/03-metasploit-framework.md)
 * [Msfvenom](13-misc/04-msfvenom.md)

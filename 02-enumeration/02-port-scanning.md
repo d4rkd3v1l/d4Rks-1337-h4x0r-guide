@@ -11,9 +11,7 @@
 * XSL Bootstrap
 [GitHub - honze-net/nmap-bootstrap-xsl: A Nmap XSL implementation with Bootstrap.](https://github.com/honze-net/nmap-bootstrap-xsl)
 
-### TCP
-
-#### Common options
+### Common options
 
 option | description
 --- | ---
@@ -25,7 +23,15 @@ option | description
 `-T<0-5>` | Set timing template (higher is faster), aka paranoid\|sneaky\|polite\|normal\|aggressive\|insane (default: 3, aka normal)
 `-oA` |	basename (Output to all formats)
 `-sU` | UDP scan
+`-v` `-vv` | Increase verbosity
+`-d` `-dd` | Debug, even more verbose
 `--max-retries` | set to 1 or 0 to considerably speed up scan (but gets a bit less accurate)
+
+Note: There are a ton of other options, like more exotic scan types, spoofing IP or MAC addresses, etc.  
+
+### TCP
+
+Note: Nmap can only perform TCP SYN scans (`-sS`), when running as privileged user (root or sudoer), otherwise it falls back to full TCP 3-way handshakes (`-sT`) per default.  
 
 #### Examples
 
@@ -39,14 +45,14 @@ Heavy scan
 nmap <ip> -p- -sV -sC --reason -oA nmap_heavy
 ```
 
-Scan for vulns
-
+Scan for "safe" vulns
 ```bash
 nmap --script "vuln and safe" -oA nmap_vuln <ip>
 ```
 
+Scan for SMB vulns
 ```bash
-nmap -p 139,445 --script smb-vuln* <ip>
+nmap -p 139,445 --script smb-vuln*  -oA nmap_vuln_smb <ip>
 ```
 
 ### UDP
@@ -58,7 +64,6 @@ nmap -sU -oA nmap_udp <ip>
 ### Useful stuff
 
 Get open ports comma separated
-
 ```bash
 grep -oP '\d{1,5}/open' nmap.gnmap | cut -d  "/" -f 1 | paste -s -d ','
 ```
