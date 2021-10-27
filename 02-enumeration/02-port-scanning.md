@@ -15,13 +15,13 @@
 
 option | description
 --- | ---
-`-p` | port ranges (default: most common 1000 ports), -p- all ports (1-65536)
-`-sV` | version scanning
-`-sC` |	script scanning
+`-p` | Port ranges (default: most common 1000 ports), -p- all ports (1-65536)
+`-sV` | Version scanning, enforces full TCP connection
+`-sC` |	Script scanning
 `-O` | OS detection
 `-A` | Aggressive scan options, combines: -O, -sV, -sC, --traceroute
 `-T<0-5>` | Set timing template (higher is faster), aka paranoid\|sneaky\|polite\|normal\|aggressive\|insane (default: 3, aka normal)
-`-oA` |	basename (Output to all formats)
+`-oA` |	Basename (Output to all formats)
 `-sU` | UDP scan
 `-v` `-vv` | Increase verbosity
 `-d` `-dd` | Debug, even more verbose
@@ -37,12 +37,12 @@ Note: Nmap can only perform TCP SYN scans (`-sS`), when running as privileged us
 
 Light scan
 ```bash
-nmap <ip> --top-ports 10 --open -oA nmap_light
+nmap --top-ports 10 --open -oA nmap_light <ip>
 ```
 
 Heavy scan
 ```bash
-nmap <ip> -p- -sV -sC --reason -oA nmap_heavy
+nmap -p- -sV -sC --reason -oA nmap_heavy <ip>
 ```
 
 Scan for "safe" vulns
