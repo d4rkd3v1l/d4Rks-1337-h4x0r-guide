@@ -17,34 +17,34 @@
 
 ## Exploitation
 
-* [Shells]
+* Shells
   * [Shells](03-exploitation/01-shells/01-shells.md)
   * [Terminal config & TTY](03-exploitation/01-shells/02-terminal-config-TTY.md)
-* [Passwords](exploitation/passwords/README.md)
+* Passwords
   * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
   * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
   * [Hydra](03-exploitation/02-passwords/03-hydra.md)
   * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
-* [Injections](exploitation/injections/README.md)
+* Injections
   * [SQL injection (SQLi)](03-exploitation/03-injections/01-sql-injection.md)
   * [Cross site scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
   * [XML external entity (XXE) (TODO)](03-exploitation/03-injections/03-xml-external-entity.md)
   * [Template injection (TODO)](03-exploitation/03-injections/04-template-injection.md)
-* [File inclusions](exploitation/file-inclusions/README.md)
+* File inclusions
   * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusion/01-file-inclusions.md)
-* [Buffer overflow](exploitation/buffer-overflow/README.md)
+* Buffer overflow
   * [General](03-exploitation/05-buffer-overflow/01-general.md)
   * [Linux](03-exploitation/05-buffer-overflow/02-linux.md)
   * [Windows](03-exploitation/05-buffer-overflow/03-windows.md)
-* [Misc](exploitation/misc/README.md)
+* Misc
   * [Evasion](03-exploitation/06-misc/01-evasion.md)
   * [SQSH](03-exploitation/06-misc/02-sqsh.md)
 
 ## Privilege escalation
 
-* [Linux]
+* Linux
   * [Overview](04-privilege-escalation/01-linux/01-overview.md)
-* [Windows](privilege-escalation/windows/README.md)
+* Windows
   * [Overview](04-privilege-escalation/02-windows/01-overview.md)
   * [Mimikatz](04-privilege-escalation/02-windows/02-mimikatz.md)
   * [PowerSploit](04-privilege-escalation/02-windows/03-power-sploit.md)
