@@ -19,7 +19,7 @@
 glibc - 'getcwd()' Local Privilege Escalation 2018 local root exploit  
 [local-root-exploits/linux/CVE-2018-1000001 at master · 5H311-1NJ3C706/local-root-exploits · GitHub](https://github.com/5H311-1NJ3C706/local-root-exploits/tree/master/linux/CVE-2018-1000001)
 
-## Recon
+## Manual
 
 ### Kernel exploits
 
@@ -106,7 +106,7 @@ Run it on target
 ./binary
 ```
 
-## Tools
+## Automated
 
 ### LinPEAS
 

@@ -106,7 +106,7 @@
 
 ## Misc
 
-* [Bash]
+* [Bash](13-misc/01-bash.md)
 * [Wordlists and dictionaries](13-misc/02-wordlists-dictionaries.md)
 * [Metasploit Framework (MSF)](13-misc/03-metasploit-framework.md)
 * [Msfvenom](13-misc/04-msfvenom.md)

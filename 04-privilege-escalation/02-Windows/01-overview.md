@@ -20,10 +20,105 @@
 * [SILENTTRINITY](/04-privilege-escalation/02-windows/07-silenttrinity.md)
 * [Empire](/04-privilege-escalation/02-windows/06-empire.md)
 
-## Exploit Suggester
+## Manual
 
-> This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target. It also notifies the user if there are public exploits and Metasploit modules available for the missing bulletins.  
-[GitHub - AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
+Current users privs
+```cmd
+whoami /priv
+```
+
+List users/details
+```cmd
+net users
+net user <username>
+```
+
+List other logged in users
+```cmd
+qwinsta
+query session
+```
+
+List user groups
+```cmd
+net localgroup
+net localgroup <groupname>
+```
+
+System info
+```cmd
+systeminfo
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+hostname
+```
+
+Patch level
+```cmd
+wmic qfe get Caption,Description,HotFixID,InstalledOn
+```
+
+Network connections
+```cmd
+netstat -ano
+```
+
+Scheduled tasks
+```cmd
+schtasks
+schtasks /query /fo LIST /v
+```
+
+Driver
+```cmd
+driverquery
+```
+
+Installed software (slow)
+```cmd
+wmic product get name,version,vendor
+```
+
+Alternative
+```cmd
+wmic service list brief
+```
+
+Services
+```cmd
+sc qc
+```
+
+Antivirus
+```cmd
+sc query windefend
+sc queryex type=service
+```
+
+Searching files
+```cmd
+findstr /si <term> <ext>
+findstr /si password *.txt
+```
+
+### DLL hijacking
+
+Find a program with a missing dll, or make use for search path order, to execute your own dll.
+
+### Unquoted service path
+
+Finding unqoated service paths
+```cmd
+wmic service get name,displayname,pathname,startmode
+```
+
+```cmd
+sc qc <service>
+```
+
+Check if we have write permission in a suitable path.
+```cmd
+.\accesschk64.exe /accepteula -uwdq <path>
+```
 
 ## PowerShell
 
@@ -39,7 +134,26 @@ Access with
 cd <share-name>:
 ```
 
-## Tools
+## Automated
+
+### Exploit Suggester
+
+> This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target. It also notifies the user if there are public exploits and Metasploit modules available for the missing bulletins.  
+[GitHub - AonCyberLabs/Windows-Exploit-Suggester](https://github.com/AonCyberLabs/Windows-Exploit-Suggester)
+[Windows Exploit Suggester - Next Generation (WES-NG)](https://github.com/bitsadmin/wesng)
+
+```bash
+windows-exploit-suggester.py –update
+windows-exploit-suggester.py --database 2021-09-21-mssb.xls --systeminfo sysinfo_output.txt
+```
+
+### winPEAS
+
+[winPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
+
+```cmd
+winpeas.exe > <output-file>
+```
 
 ### PowerSploit
 
