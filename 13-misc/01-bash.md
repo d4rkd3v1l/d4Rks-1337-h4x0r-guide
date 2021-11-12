@@ -8,7 +8,7 @@
 
 ```bash
 find / -maxdepth 5 -name *.php -type f -exec grep -Hn password {} \; 2>/dev/null
-```bash
+```
 
 Writable files
 ```bash

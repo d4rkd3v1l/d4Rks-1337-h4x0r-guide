@@ -85,7 +85,7 @@ wmic service list brief
 
 Services
 ```cmd
-sc qc
+sc query
 ```
 
 Antivirus

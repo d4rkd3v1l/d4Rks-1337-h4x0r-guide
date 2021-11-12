@@ -23,6 +23,7 @@ option | description
 `-T<0-5>` | Set timing template (higher is faster), aka paranoid\|sneaky\|polite\|normal\|aggressive\|insane (default: 3, aka normal)
 `-oA` |	Basename (Output to all formats)
 `-sU` | UDP scan
+`-Pn` | Skip host discovery, use this option if the host is blocking ping probes.
 `-v` `-vv` | Increase verbosity
 `-d` `-dd` | Debug, even more verbose
 `--max-retries` | set to 1 or 0 to considerably speed up scan (but gets a bit less accurate)

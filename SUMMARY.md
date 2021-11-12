@@ -59,7 +59,7 @@
 
 ## Services
 
-* [TCP]
+* TCP
   * [TCP 21: FTP](11-services/01-tcp/TCP-21-FTP.md)
   * [TCP 22: SSH](11-services/01-tcp/TCP-22-SSH.md)
   * [TCP 23: Telnet](11-services/01-tcp/TCP-23-Telnet.md)
@@ -79,10 +79,10 @@
   * [TCP 3389: RDP](11-services/01-tcp/TCP-3389-RDP.md)
   * [TCP 5985: WinRM](11-services/01-tcp/TCP-5985-WinRM.md)
   * [TCP 6379: Redis](11-services/01-tcp/TCP-6379-Redis.md)
-* [UDP]
+* UDP
   * [UDP 137, 138, TCP 139: NetBIOS](11-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
   * [UDP 161: SNMP](11-services/02-udp/UDP-161-SNMP.md)
-* [Misc]
+* Misc
   * [Active Directoy](11-services/03-misc/Active-Directoy.md)
   * [Apache Tomcat](11-services/03-misc/Apache-Tomcat.md)
   * [H2 Databases](11-services/03-misc/H2-Databases.md)
