@@ -85,7 +85,7 @@ dotdotpwn -m http -h <ip> -f <file>
 [DIRB](https://tools.kali.org/web-applications/dirb) is a Web Content Scanner. It looks for existing (and/or hidden) Web Objects. It basically works by launching a dictionary based attack against a web server and analyzing the response.
 
 ```bash
-dirb <host>
+dirb <host> -o dirb
 ```
 
 ## DirBuster

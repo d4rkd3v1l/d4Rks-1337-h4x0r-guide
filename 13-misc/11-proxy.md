@@ -2,16 +2,37 @@
 
 ## ssh
 
-**D**ynamic port forwarding (SOCKS?)
+**D**ynamic port forwarding (SOCKS proxy)
 ```bash
-ssh -D <new-port> <target-ip>
+ssh -D <port> <user>@<viaHost>
+```
+
+E.g.  
+```bash
+ssh -D 1337 user@myserver.com
 ```
 
 **L**ocal port forwarding
 ```bash
-ssh -L <fromPort>:<toHost>:<toPort> user@<viaHost>
+ssh -L <fromPort>:<toHost>:<toPort> <user>@<viaHost>
 ```
--> `toHost` and `viaHost` may be the same machine -> toHost=localhost (viaHost's point of view)
+
+E.g.  
+Accessing localhost:`1337` will load `google.com:80` via `myserver.com` using `user`s account.
+```bash
+ssh -L 1337:google.com:80 user@myserver.com
+```
+
+**R**emote port forwarding
+```bash
+ssh -R <fromPort>:<toHost>:<toPort> <user>@<viaHost>
+```
+
+E.g.  
+Accessing myserver.com:`1337` will load `localhost:80` via `myserver.com` using `user`s account.
+```bash
+ssh -R 1337:localhost.com:80 user@myserver.com
+```
 
 ## proxychains
 

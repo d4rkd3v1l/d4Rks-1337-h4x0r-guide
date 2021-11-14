@@ -38,28 +38,33 @@ Note: Nmap can only perform TCP SYN scans (`-sS`), when running as privileged us
 
 Light scan
 ```bash
-nmap --top-ports 10 --open -oA nmap_light <ip>
+sudo nmap --top-ports 10 --open -oA nmap_light <ip>
+```
+
+Default scan
+```bash
+sudo nmap -sV -oA nmap_default <ip>
 ```
 
 Heavy scan
 ```bash
-nmap -p- -sV -sC --reason -oA nmap_heavy <ip>
+sudo nmap -p- -sV -sC --reason -oA nmap_heavy <ip>
 ```
 
 Scan for "safe" vulns
 ```bash
-nmap --script "vuln and safe" -oA nmap_vuln <ip>
+sudo nmap --script "vuln and safe" -oA nmap_vuln <ip>
 ```
 
 Scan for SMB vulns
 ```bash
-nmap -p 139,445 --script smb-vuln*  -oA nmap_vuln_smb <ip>
+sudo nmap -p 139,445 --script smb-vuln*  -oA nmap_vuln_smb <ip>
 ```
 
 ### UDP
 
 ```bash
-nmap -sU -oA nmap_udp <ip>
+sudo nmap -sU -oA nmap_udp <ip>
 ```
 
 ### Useful stuff

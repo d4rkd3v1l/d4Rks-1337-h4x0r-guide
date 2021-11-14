@@ -85,6 +85,7 @@
 * Misc
   * [Active Directoy](11-services/03-misc/Active-Directoy.md)
   * [Apache Tomcat](11-services/03-misc/Apache-Tomcat.md)
+  * [Drupal](11-services/03-misc/Drupal.md)
   * [H2 Databases](11-services/03-misc/H2-Databases.md)
   * [IIS](11-services/03-misc/IIS.md)
   * [IPsec](11-services/03-misc/IPsec.md)
@@ -92,9 +93,11 @@
   * [Java Applets](11-services/03-misc/Java-Applets.md)
   * [Java RMI](11-services/03-misc/Java-RMI.md)
   * [Jenkins](11-services/03-misc/Jenkins.md)
+  * [Joomla](11-services/03-misc/Joomla.md)
   * [Oracle](11-services/03-misc/Oracle.md)
   * [PHP](11-services/03-misc/PHP.md)
   * [SharePoint](11-services/03-misc/SharePoint.md)
+  * [WordPress](11-services/03-misc/WordPress.md)
 
 ## File transfer
 
