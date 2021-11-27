@@ -174,6 +174,11 @@ use post/windows/manage/run_as
 
 ### Meterpreter session
 
+Upgrade shell to meterpreter shell
+```bash
+post/multi/manage/shell_to_meterpreter
+```
+
 Migrate to other (e.g. more stable) process
 ```bash
 migrate

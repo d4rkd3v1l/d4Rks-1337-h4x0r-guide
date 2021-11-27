@@ -88,7 +88,7 @@ smbclient -N -L //<ip>
 
 Authenticated
 ```bash
-smbclient -L //<ip> -U <user>%<pass>
+smbclient -L //<ip> -U <user> -P <pass>
 smbclient \\\\$ip\\$share
 ```
 
