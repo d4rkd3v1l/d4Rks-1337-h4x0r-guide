@@ -25,9 +25,16 @@ Source and destination IP addresses
 ip.src == <src-ip-address> and ip.dst == <dst-ip-address>
 ```
 
-Protocol (e.g. `http`)
+Protocol
 ```
-<protocol-name>
+<protocol>
+http
+```
+
+Protocol contains string
+```
+<protocol> contains <string>
+http contains google.com
 ```
 
 TCP port
@@ -38,6 +45,11 @@ tcp.port eq <port>
 UDP port
 ```
 udp.port eq <port>
+```
+
+Negation
+```
+not <expression>
 ```
 
 ## Capture packets

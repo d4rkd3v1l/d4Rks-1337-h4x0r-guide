@@ -23,18 +23,22 @@ sudo nbtscan -r <ip-range>
 
 ### nmap
 
+Check default SMB ports are open
 ```bash
 nmap -p139,445 <ip> --open
 ```
 
+List SMB scripts
 ```bash
 ls -l /usr/share/nmap/scripts | grep smb
 ```
 
+Run all SMB scripts
 ```bash
 nmap -p139,445 --script "smb*" --script-timeout 30 -oA nmap_smb <ip>
 ```
 
+Run all SMB vuln scripts
 ```bash
 nmap -p139,445 --script "smb-vuln*" --script-timeout 30 -oA nmap_smb-vuln <ip>
 ```

@@ -79,6 +79,7 @@
   * [TCP 3389: RDP](11-services/01-tcp/TCP-3389-RDP.md)
   * [TCP 5985: WinRM](11-services/01-tcp/TCP-5985-WinRM.md)
   * [TCP 6379: Redis](11-services/01-tcp/TCP-6379-Redis.md)
+  * [TCP 27017: MongoDB](11-services/01-tcp/TCP-27017-MongoDB.md)
 * UDP
   * [UDP 137, 138, TCP 139: NetBIOS](11-services/02-udp/UDP-137-138-TCP-139-NetBIOS.md)
   * [UDP 161: SNMP](11-services/02-udp/UDP-161-SNMP.md)

