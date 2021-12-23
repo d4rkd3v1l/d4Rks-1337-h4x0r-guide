@@ -156,7 +156,7 @@ site:twitch-tv -www.twicht.tv -watch.twitch.tv
 * WebScarab
 * Recon-ng
 * GitRob
-* CyberChef
+* [CyberChef](https://gchq.github.io/CyberChef/)
 * OnlineHashCrack.com
 * idb 
 * Wireshark

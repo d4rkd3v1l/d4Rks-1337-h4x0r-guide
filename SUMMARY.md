@@ -19,7 +19,7 @@
 
 * Shells
   * [Shells](03-exploitation/01-shells/01-shells.md)
-  * [Terminal config & TTY](03-exploitation/01-shells/02-terminal-config-TTY.md)
+  * [TTY](03-exploitation/01-shells/02-TTY.md)
 * Passwords
   * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
   * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
@@ -110,21 +110,22 @@
 
 ## Misc
 
-* [Bash](13-misc/01-bash.md)
-* [Wordlists and dictionaries](13-misc/02-wordlists-dictionaries.md)
-* [Metasploit Framework (MSF)](13-misc/03-metasploit-framework.md)
-* [Msfvenom](13-misc/04-msfvenom.md)
-* [Firefox extensions](13-misc/05-firefox-extensions.md)
-* [PowerShell](13-misc/06-powershell.md)
-* [PowerShell on Linux](13-misc/07-powershell-linux.md)
-* [Impacket](13-misc/08-impacket.md)
-* [Pass the Hash (PTH)](13-misc/09-pass-the-hash.md)
-* [MITM](13-misc/10-mitm.md)
-* [Proxy](13-misc/11-proxy.md)
-* [Wireshark](13-misc/12-wireshark.md)
-* [Crypto](13-misc/13-crypto.md)
-* [Memory forensics](13-misc/14-memory-forensics.md)
-* [Ebowla](13-misc/15-ebowla.md)
+* [Bash](13-misc/bash.md)
+* [Burp Suite](13-misc/burp-suite.md)
+* [Crypto](13-misc/crypto.md)
+* [Ebowla](13-misc/ebowla.md)
+* [Firefox extensions](13-misc/firefox-extensions.md)
+* [Impacket](13-misc/impacket.md)
+* [Memory forensics](13-misc/memory-forensics.md)
+* [Metasploit Framework (MSF)](13-misc/metasploit-framework.md)
+* [MITM](13-misc/mitm.md)
+* [Msfvenom](13-misc/msfvenom.md)
+* [Pass the Hash (PTH)](13-misc/pass-the-hash.md)
+* [PowerShell](13-misc/powershell.md)
+* [PowerShell on Linux](13-misc/powershell-linux.md)
+* [Proxy](13-misc/proxy.md)
+* [Wireshark](13-misc/wireshark.md)
+* [Wordlists and dictionaries](13-misc/wordlists-dictionaries.md)
 
 ## Bug Bounty
 

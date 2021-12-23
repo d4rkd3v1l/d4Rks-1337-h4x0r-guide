@@ -2,7 +2,7 @@
 
 ## Related
 
-[Process monitoring](/02-enumeration/06-process-monitoring.md)
+[Process monitoring](../02-enumeration/06-process-monitoring.md)
 
 ## find
 

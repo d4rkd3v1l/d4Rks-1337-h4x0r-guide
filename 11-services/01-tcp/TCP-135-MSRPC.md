@@ -6,7 +6,7 @@
 
 ## Related
 
-* [Impacket](/13-misc/08-impacket.md)
+* [Impacket](../../13-misc/impacket.md)
 
 ## Enumeration
 

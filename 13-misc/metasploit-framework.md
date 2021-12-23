@@ -78,7 +78,7 @@ sessions -h
 
 Interact with session
 ```bash
-sessions -i 1
+sessions <number>
 ```
 
 Send session to background

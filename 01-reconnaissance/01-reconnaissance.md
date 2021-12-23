@@ -2,7 +2,7 @@
 
 ## Related
 
-[Bug bounty/Tools](/21-bug-bounty/02-tools.md)
+[Bug bounty/Tools](../21-bug-bounty/02-tools.md)
 
 ## Subdomain discovery
 
@@ -37,7 +37,7 @@ E.g. private DNS server or specified locally in `/etc/hosts`
 
 ### fuff
 
-See also [Webserver scanning](/02-enumeration/03-webserver-scanning.md)
+See also [Webserver scanning](../02-enumeration/03-webserver-scanning.md)
 
 ```bash
 ffuf -w <wordlist-file> -H "Host: FUZZ.domain.com" -u http://<ip>

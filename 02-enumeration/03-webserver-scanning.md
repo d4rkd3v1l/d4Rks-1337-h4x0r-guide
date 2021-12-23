@@ -2,7 +2,7 @@
 
 ## Related
 
-[TCP 80, 443: HTTP(S)](/11-services/01-tcp/TCP-80-443-HTTP.md)
+[TCP 80, 443: HTTP(S)](../11-services/01-tcp/TCP-80-443-HTTP.md)
 
 ## Common wordlists
 
@@ -98,4 +98,4 @@ dirbuster
 
 ## wappalyzer (firefox add-on)
 
-See [Firefox extensions](/13-misc/05-firefox-extensions.md)
+See [Firefox extensions](../13-misc/firefox-extensions.md)

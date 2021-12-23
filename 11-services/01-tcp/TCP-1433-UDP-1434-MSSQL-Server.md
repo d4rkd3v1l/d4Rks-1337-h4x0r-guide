@@ -6,7 +6,7 @@
 
 ## Related
 
-[SQSH](/03-exploitation/06-misc/02-sqsh.md)
+[SQSH](../../03-exploitation/06-misc/02-sqsh.md)
 
 ## General
 

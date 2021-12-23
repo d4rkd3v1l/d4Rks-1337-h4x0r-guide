@@ -38,7 +38,7 @@ Get stuff like gcc (e.g. `Linux version 5.14.0-kali2-arm64 (devel@kali.org) (gcc
 cat /proc/version
 ```
 
-Then use `searchsploit` ([https://www.exploit-db.com](exploit-db.com)), Google, GitHub, etc. to check for public available kernel exploits.
+Then use `searchsploit` ([exploit-db.com](https://www.exploit-db.com)), Google, GitHub, etc. to check for public available kernel exploits.
 
 ### Sudo
 

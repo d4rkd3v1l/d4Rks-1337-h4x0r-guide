@@ -12,7 +12,7 @@ Drupal
 
 ### File inclusions (LFI & RFI)
 
-See [File inclusions (LFI, RFI)](/03-exploitation/04-file-inclusion/01-file-inclusions.md)
+See [File inclusions (LFI, RFI)](../../03-exploitation/04-file-inclusion/01-file-inclusions.md)
 
 ### Code Execution
 

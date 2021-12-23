@@ -6,7 +6,7 @@
 
 ## Related
 
-[TCP 139, 445: NetBIOS, SMB](/11-services/01-tcp/TCP-139-445-NetBIOS-SMB.md)
+[TCP 139, 445: NetBIOS, SMB](../01-tcp/TCP-139-445-NetBIOS-SMB.md)
 
 ## nbtscan
 

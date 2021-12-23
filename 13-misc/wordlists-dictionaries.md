@@ -2,7 +2,7 @@
 
 ## Related
 
-[Passwords & credentials](/03-exploitation/02-passwords/04-passwords-credentials.md)
+[Passwords & credentials](../03-exploitation/02-passwords/04-passwords-credentials.md)
 
 ## Wordlists
 
@@ -30,7 +30,7 @@ Real human passwords leaked from various website databases.
 
 ### m3g0tr0n_Passwords_WordList_CLEANED
 
-[m3g0tr0n_Passwords_WordList_CLEANED](http://wordbook.xyz/download/big/m3g9tr0n_Passwords_WordList_CLEANED.zip)  
+[m3g0tr0n_Passwords_WordList_CLEANED](http://forums.pirate-server.com/data/m3g9tr0n_Passwords_WordList_CLEANED.zip)  
 List of 122 Million Passwords
 
 ## SecLists
