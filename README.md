@@ -1,6 +1,6 @@
 # The Pentester's Cheatsheet
 
-[![CI](https://github.com/d4rkd3v1l/ThePentestersCheatSheet/actions/workflows/build.yml/badge.svg)](https://github.com/d4rkd3v1l/ThePentestersCheatSheet/actions/workflows/build.yml)
+[![CI](https://github.com/d4rkd3v1l/ThePentestersCheatSheet/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/d4rkd3v1l/ThePentestersCheatSheet/actions/workflows/build.yml)
 
 Here are my notes taken during my OSCP preperation and doing some HackTheBox etc.
 
