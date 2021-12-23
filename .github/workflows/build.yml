@@ -33,3 +33,5 @@ jobs:
       # You may pin to the exact commit or the version.
       # uses: gaurav-nelson/github-action-markdown-link-check@9710f0fec812ce0a3b98bef4c9d842fc1f39d976
         uses: gaurav-nelson/github-action-markdown-link-check@1.0.13
+        with:
+          config-file: .markdown-link-check/config.json
