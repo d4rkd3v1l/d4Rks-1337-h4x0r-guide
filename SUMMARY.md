@@ -5,6 +5,7 @@
 ## Reconnaissance
 
 * [Recon](01-reconnaissance/01-reconnaissance.md)
+* [OSINT](01-reconnaissance/02-OSINT.md)
 
 ## Enumeration
 
@@ -19,7 +20,7 @@
 
 * Shells
   * [Shells](03-exploitation/01-shells/01-shells.md)
-  * [TTY](03-exploitation/01-shells/02-TTY.md)
+  * [TTY & Config](03-exploitation/01-shells/02-TTY.md)
 * Passwords
   * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
   * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
@@ -28,8 +29,8 @@
 * Injections
   * [SQL injection (SQLi)](03-exploitation/03-injections/01-sql-injection.md)
   * [Cross site scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
-  * [XML external entity (XXE) (TODO)](03-exploitation/03-injections/03-xml-external-entity.md)
-  * [Template injection (TODO)](03-exploitation/03-injections/04-template-injection.md)
+  * [XML external entity (XXE)](03-exploitation/03-injections/03-xml-external-entity.md)
+  * [Template injection](03-exploitation/03-injections/04-template-injection.md)
 * File inclusions
   * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusion/01-file-inclusions.md)
 * Buffer overflow

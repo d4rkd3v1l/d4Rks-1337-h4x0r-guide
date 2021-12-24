@@ -11,7 +11,7 @@
 ## nmap
 
 ```bash
-nmap -p80 --script http-wordpress-enum --script-args check-latest=true -vvv <ip>
+nmap -p80 --script http-wordpress-enum --script-args check-latest=true,root=/wordpress -vvv <ip>
 ```
 
 ```bash
@@ -22,6 +22,12 @@ nmap -p80 --script http-wordpress-users --script-args basepath=/wp/,limit=100 -v
 nmap -sV --script http-wordpress-brute --script-args uri=/wp/wp-login.php -vvv <ip>
 ```
 (may take some time)
+
+## User enum
+
+```bash
+curl http://<host>/index.php/wp-json/wp/v2/users
+```
 
 ## WPScan
 
