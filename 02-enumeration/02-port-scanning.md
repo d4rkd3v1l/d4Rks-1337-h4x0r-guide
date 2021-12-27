@@ -143,10 +143,5 @@ echo "" > /dev/tcp/<ip>/<port>
 ## Simple bash port scanner
 
 ```bash
-#!/bin/bash
-host=<host>
-for port in {1..65535}; do
-	timeout .1 bash -c "echo >/dev/tcp/$host/$port" && echo "port $port is open"
-done
-echo "Done"
+for i in {1..65535}; do (echo > /dev/tcp/<ip>/$i) >/dev/null 2>&1 && echo $i is open; done
 ```

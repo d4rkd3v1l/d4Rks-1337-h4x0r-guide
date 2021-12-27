@@ -32,6 +32,7 @@ curl http://<host>/index.php/wp-json/wp/v2/users
 ## WPScan
 
 WordPress Security Scanner  
+-> Register on wpscan.com to get an API token, to include checking of the "WordPress Vulnerability Database".  
 
 Enumerate (PWK2.0 style)
 ```bash

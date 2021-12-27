@@ -57,6 +57,7 @@
 ## Post exploitation
 
 * [Pivoting](05-post-exploitation/01-pivoting.md)
+* [Standalone Tools](05-post-exploitation/02-tools.md)
 
 ## Services
 
@@ -124,7 +125,6 @@
 * [Pass the Hash (PTH)](13-misc/pass-the-hash.md)
 * [PowerShell](13-misc/powershell.md)
 * [PowerShell on Linux](13-misc/powershell-linux.md)
-* [Proxy](13-misc/proxy.md)
 * [Wireshark](13-misc/wireshark.md)
 * [Wordlists and dictionaries](13-misc/wordlists-dictionaries.md)
 
