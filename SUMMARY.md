@@ -56,8 +56,9 @@
 
 ## Post exploitation
 
-* [Pivoting](05-post-exploitation/01-pivoting.md)
-* [Standalone Tools](05-post-exploitation/02-tools.md)
+* [Loot](05-post-exploitation/01-loot.md)
+* [Pivoting](05-post-exploitation/02-pivoting.md)
+* [Standalone Tools](05-post-exploitation/03-tools.md)
 
 ## Services
 
