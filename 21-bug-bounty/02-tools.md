@@ -117,7 +117,7 @@ site:twitch-tv -www.twicht.tv -watch.twitch.tv
 * [SpiderFoot](https://www.spiderfoot.net)
 * [Project Discovery Framework](https://projectdiscovery.io)
 * [Jaeles (scanner)](https://github.com/jaeles-project/jaeles)
-* [Osmedeus](https://j3ssie.github.io/Osmedeus)
+* [Osmedeus](https://github.com/j3ssie/Osmedeus)
 * [HunterSuite.io](https://huntersuite.io)
 * Bunty.offensiveai.com (paid)
 * [reNgine](https://github.com/yogeshojha/rengine)
