@@ -11,6 +11,12 @@
 > The ultimate WinRM shell for hacking/pentesting  
 [GitHub - Hackplayers/evil-winrm](https://github.com/Hackplayers/evil-winrm)
 
+Password  
 ```bash
 evil-winrm -i <ip> -u <user> -p <pw> -s <script-path> -e <binary-path>
+```
+
+PtH  
+```bash
+evil-winrm -i <ip> -u <user> -H <nt-hash> -s <script-path> -e <binary-path>
 ```

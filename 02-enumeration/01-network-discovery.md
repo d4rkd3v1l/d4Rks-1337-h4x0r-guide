@@ -23,3 +23,10 @@ nmap -sn <ip>/24
 ```bash
 for i in {1..255}; do (ping -c 1 xxx.xxx.xxx.${i} | grep "bytes from" &); done
 ```
+
+## powershell
+
+```powershell
+$ping = New-Object System.Net.Networkinformation.Ping
+1..254 | % { $ping.send("xxx.xxx.xxx.$_") | select address, status }
+```

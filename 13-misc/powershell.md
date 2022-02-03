@@ -49,7 +49,7 @@ IEX(IWR('<url>'))
 ### Check architecture
 
 ```powershell
-[environment]::Is64OperatingSystem
+[environment]::Is64BitOperatingSystem
 [environment]::Is64BitProcess
 ```
 

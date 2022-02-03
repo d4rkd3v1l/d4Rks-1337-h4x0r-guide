@@ -4,9 +4,9 @@
 
 ### SimpleHTTPServer
 
-Start http server in current dir (default port is 8000, when not specified otherwise)
+Start http server (default port is 8000, default path is current dir)
 ```bash
-python -m http.server <port>
+python -m http.server <port> -d <path>
 ```
 
 ### Apache

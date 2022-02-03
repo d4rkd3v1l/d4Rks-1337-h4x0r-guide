@@ -80,6 +80,10 @@ nikto -h <ip> -Format txt -o .
 dotdotpwn -m http -h <ip> -f <file>
 ```
 
+```bash
+dotdotpwn -m http-url -u http://<ip>/nav.php?page=TRAVERSAL -o unix -s -d 4 -k "root:" -f /etc/passwd
+```
+
 ## dirb
 
 [DIRB](https://tools.kali.org/web-applications/dirb) is a Web Content Scanner. It looks for existing (and/or hidden) Web Objects. It basically works by launching a dictionary based attack against a web server and analyzing the response.

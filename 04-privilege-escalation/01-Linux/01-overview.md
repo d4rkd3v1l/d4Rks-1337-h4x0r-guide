@@ -223,6 +223,10 @@ which awk perl python ruby gcc cc vi vim nmap find netcat nc wget tftp ftp 2>/de
 Check if available  
 `mount` -> must **not** have `nosuid`
 
+```bash
+mount | grep -vE "nosuid"
+```
+
 setuid.c
 ```c
 int main(void) {
@@ -240,9 +244,10 @@ int main(int argc, char *argv[]) {
 }
 ```
 
+TODO: This doesn't seem to be working.. Did it ever? Where did I get this from? PWK? 😬
 ```bash
 gcc setuid.c -o setuid
-chown root:root /tmp/setuid; chmod 4755 /tmp/setuid
+sudo chown root:root /tmp/setuid; sudo chmod 4755 /tmp/setuid
 ```
 
 ## Writable /etc/passwd

@@ -6,5 +6,5 @@
 ## Usage
 
 ```powershell
-jaws-enum.ps1 -OutputFileName Jaws-Enum.txt
+.\jaws-enum.ps1 -OutputFileName Jaws-Enum.txt
 ```

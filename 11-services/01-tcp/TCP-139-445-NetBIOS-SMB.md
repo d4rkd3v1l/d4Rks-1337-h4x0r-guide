@@ -43,7 +43,7 @@ Run all SMB vuln scripts
 nmap -p139,445 --script "smb-vuln*" --script-timeout 30 -oA nmap_smb-vuln <ip>
 ```
 
-### Enum4Linux
+### enum4linux
 
 **enum4linux** is a tool for enumerating information from Windows and Samba systems 
 ```bash
@@ -53,6 +53,14 @@ enum4linux -a <ip>
 Run this in parallel to grep the samba version
 ```bash
 sudo ngrep -i -d tun0 's.?a.?m.?b.?a.*[[:digit:]]'
+```
+
+### enum4linux-ng
+> A next generation version of enum4linux (a Windows/Samba enumeration tool) with additional features like JSON/YAML export. Aimed for security professionals and CTF players.  
+[GitHub - cddmp/enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
+
+```bash
+python enum4linux-ng.py -A <ip>
 ```
 
 ### SMBMap
@@ -147,7 +155,20 @@ grab password hashes from domain controller
 
 ### crackmapexec
 
-TODO
+> A swiss army knife for pentesting networks  
+[GitHub - byt3bl33d3r/CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)  
+
+-> [SMB Command Reference](https://github.com/byt3bl33d3r/CrackMapExec/wiki/SMB-Command-Reference)  
+
+Display help (smb)  
+```bash
+cme smb --help
+```
+
+[Using Credentials, NULL Sessions, PtH Attacks](https://github.com/byt3bl33d3r/CrackMapExec/wiki/Using-Credentials,-NULL-Sessions,-PtH-Attacks)  
+```bash
+cme smb <ip> -u <user> -H <hash>
+```
 
 ## null sessions
 

