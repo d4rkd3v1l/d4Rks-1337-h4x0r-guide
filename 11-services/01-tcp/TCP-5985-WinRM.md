@@ -6,6 +6,12 @@
 
 ## Tools
 
+### PSSession
+
+```powershell
+Enter-PSSession -ComputerName <hostname> -Credential <username>
+```
+
 ### Evil-WinRM
 
 > The ultimate WinRM shell for hacking/pentesting  

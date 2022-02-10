@@ -85,12 +85,18 @@ BloodHound uses graph theory to reveal the hidden and often unintended relations
 ### Gather information (on target)
 
 ```bash
+pip3 install bloodhound
+bloodhound-python -u <username> -p <password> -ns <nameserver> -d <domain> -c All
+```
+
+**OR**
+```cmd
 .\SharpHound.exe -c all -d <domain> --domain-controller <dc-ip>
 ```
 Copy generated `*BloodHound.zip`
 
-**Alternate approach**
-```bash
+**OR**
+```powershell
 SharpHound.ps1
 Invoke-BloodHound -Domain <domain> -LDAPUser <user> -LDAPPass <pass> -CollectionMethod All -DomainController <dc-ip>
 ```

