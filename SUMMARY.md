@@ -20,19 +20,19 @@
 
 * Shells
   * [Shells](03-exploitation/01-shells/01-shells.md)
-  * [TTY & Config](03-exploitation/01-shells/02-TTY.md)
+  * [TTY](03-exploitation/01-shells/02-TTY.md)
 * Passwords
   * [Hashcat](03-exploitation/02-passwords/01-hashcat.md)
   * [John the Ripper (JTR)](03-exploitation/02-passwords/02-john-the-ripper.md)
   * [Hydra](03-exploitation/02-passwords/03-hydra.md)
   * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
-* Injections
-  * [SQL injection (SQLi)](03-exploitation/03-injections/01-sql-injection.md)
-  * [Cross site scripting (XSS)](03-exploitation/03-injections/02-cross-site-scripting.md)
-  * [XML external entity (XXE)](03-exploitation/03-injections/03-xml-external-entity.md)
-  * [Template injection](03-exploitation/03-injections/04-template-injection.md)
-* File inclusions
-  * [File inclusions (LFI, RFI)](03-exploitation/04-file-inclusion/01-file-inclusions.md)
+* Web
+  * [Cross site scripting (XSS)](03-exploitation/03-web/cross-site-scripting.md)
+  * [File inclusions (LFI, RFI)](03-exploitation/03-web/file-inclusions.md)
+  * [File uploads](03-exploitation/03-web/file-uploads.md)
+  * [SQL injection (SQLi)](03-exploitation/03-web/sql-injection.md)
+  * [Template injection](03-exploitation/03-web/template-injection.md)
+  * [XML external entity (XXE)](03-exploitation/03-web/xml-external-entity.md)
 * Buffer overflow
   * [General](03-exploitation/05-buffer-overflow/01-general.md)
   * [Linux](03-exploitation/05-buffer-overflow/02-linux.md)

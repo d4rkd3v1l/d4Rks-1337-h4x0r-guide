@@ -27,9 +27,18 @@ Current users privs
 whoami /priv
 ```
 
-List users/details
+Current user details (all)
 ```cmd
-net users
+whoami /all
+```
+
+List users
+```cmd
+net user
+```
+
+User details
+```cmd
 net user <username>
 ```
 
@@ -42,13 +51,32 @@ query session
 List user groups
 ```cmd
 net localgroup
+```
+
+Group details
+```cmd
 net localgroup <groupname>
 ```
 
-Add user
+Add user (interactive, requires user interaction)
 ```cmd
 net user <username> <password> /add
+```
+
+Add user (non-interactive)
+```cmd
+net user <username> /add
+net user <username> <password>
+```
+
+Add user to group (e.g. administrators)
+```cmd
 net localgroup administrators <username> /add
+```
+
+Change password
+```cmd
+net user <username> <password>
 ```
 
 System info
@@ -92,6 +120,9 @@ wmic service list brief
 Services
 ```cmd
 sc query
+sc start <service>
+sc stop <service>
+sc config <service> <options>
 ```
 
 Antivirus
@@ -182,7 +213,7 @@ Watson.exe
 [GitHub - GhostPack/Seatbelt](https://github.com/GhostPack/Seatbelt)
 
 ```
-Seatbelt.exe all
+Seatbelt.exe -group=all -outputfile=<path>
 ```
 
 ### Sherlock

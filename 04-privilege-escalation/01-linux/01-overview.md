@@ -168,7 +168,7 @@ Run it on target
 
 ### Processing running
 
-See also: [PSPY](/enumeration/06-process-monitoring#pspy)  
+See also: [PSPY](/02-enumeration/06-process-monitoring.md#pspy)  
 
 ```bash
 ps aux

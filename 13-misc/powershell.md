@@ -20,6 +20,16 @@ Get file contents (like `type` or `cat` which is actually available as an alias,
 Get-Content <file>
 ```
 
+Delete directory recursive
+```powershell
+Remove-Item -Recurse -Force <dir>
+```
+
+Write output to file
+```powershell
+<command> | Out-File <file>
+```
+
 Count
 ```powershell
 (<command>).Count
@@ -34,7 +44,7 @@ Whoami
 ```powershell
 whoami /all
 ```
--> SeImpersonatePrivilege (RottenTomato)
+-> SeImpersonatePrivilege (Potato exploits, PrintSpoofer, etc.)
 
 ### Download file
 
