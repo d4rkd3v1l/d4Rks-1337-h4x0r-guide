@@ -27,12 +27,18 @@
   * [Hydra](03-exploitation/02-passwords/03-hydra.md)
   * [Passwords & credentials](03-exploitation/02-passwords/04-passwords-credentials.md)
 * Web
+  * [SQL injection (SQLi)](03-exploitation/03-web/sql-injection.md)
   * [Cross site scripting (XSS)](03-exploitation/03-web/cross-site-scripting.md)
   * [File inclusions (LFI, RFI)](03-exploitation/03-web/file-inclusions.md)
+  * [Cross site request forgery (CSRF)](03-exploitation/03-web/cross-site-request-forgery.md)
+  * [XML external entity (XXE)](03-exploitation/03-web/xml-external-entity-injection.md)
+  * [Cross origin resource sharing (CORS)](03-exploitation/03-web/cross-origin-resource-sharing.md)
+  * [Clickjacking](03-exploitation/03-web/clickjacking.md)
   * [File uploads](03-exploitation/03-web/file-uploads.md)
-  * [SQL injection (SQLi)](03-exploitation/03-web/sql-injection.md)
-  * [Template injection](03-exploitation/03-web/template-injection.md)
-  * [XML external entity (XXE)](03-exploitation/03-web/xml-external-entity.md)
+  * [Host header attacks](03-exploitation/03-web/host-header-attacks.md)
+  * [Logic flaws](03-exploitation/03-web/logic-flaws.md)
+
+  * [Template injection](03-exploitation/03-web/template-injection.md)  
 * Buffer overflow
   * [General](03-exploitation/05-buffer-overflow/01-general.md)
   * [Linux](03-exploitation/05-buffer-overflow/02-linux.md)
