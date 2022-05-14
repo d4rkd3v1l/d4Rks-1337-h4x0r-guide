@@ -29,6 +29,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
     
+      # Checks if all the links are actually working
       - name: markdown-link-check
       # You may pin to the exact commit or the version.
       # uses: gaurav-nelson/github-action-markdown-link-check@9710f0fec812ce0a3b98bef4c9d842fc1f39d976
