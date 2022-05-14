@@ -5,7 +5,6 @@ Highly inspired by [The Bug Hunter’s Methodology Jason Haddix @jhaddix](https:
 ## Seeds/Roots
 
 * crt.sh [crt.sh | Certificate Search](https://crt.sh)
-* [IPv4Info - All data for ipv4 network blocks and autonomous systems](http://ipv4info.com)
 * [Shodan Search Engine](https://www.shodan.io)
 * [Home - Censys](https://censys.io)
 

@@ -5,6 +5,9 @@
     },
     {
       "pattern": "https://www.exploit-db.com"
+    },
+    {
+      "pattern": "https://crt.sh"
     }
   ],
   "replacementPatterns": [
