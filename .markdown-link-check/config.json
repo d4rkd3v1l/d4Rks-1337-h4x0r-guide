@@ -8,6 +8,9 @@
     },
     {
       "pattern": "https://crt.sh"
+    },
+    {
+      "pattern": "https://www.offensive-security.com/pwk-oscp"
     }
   ],
   "replacementPatterns": [
