@@ -111,7 +111,6 @@ site:twitch-tv -www.twicht.tv -watch.twitch.tv
 
 ### S-Tier
 
-* [Intrigue.io](https://www.intrigue.io)
 * [AssetNote](https://assetnote.io)
 * [SpiderFoot](https://www.spiderfoot.net)
 * [Project Discovery Framework](https://projectdiscovery.io)
