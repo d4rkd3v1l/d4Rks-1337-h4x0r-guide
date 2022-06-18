@@ -100,6 +100,14 @@ dirb <host> -o dirb
 dirbuster
 ```
 
+## Web application firewall (WAF) detection
+
+You can use `wafw00f` to detect web application firewalls (WAFs).  
+
+```bash
+wafw00f <url>
+```
+
 ## wappalyzer (firefox add-on)
 
 See [Firefox extensions](../13-misc/firefox-extensions.md)

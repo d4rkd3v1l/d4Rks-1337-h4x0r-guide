@@ -33,10 +33,12 @@
   * [Cross site request forgery (CSRF)](03-exploitation/03-web/cross-site-request-forgery.md)
   * [XML external entity (XXE)](03-exploitation/03-web/xml-external-entity-injection.md)
   * [Cross origin resource sharing (CORS)](03-exploitation/03-web/cross-origin-resource-sharing.md)
+  * [Server-side request forgery (SSRF)](03-exploitation/03-web/server-side-request-forgery.md)
   * [Clickjacking](03-exploitation/03-web/clickjacking.md)
   * [File uploads](03-exploitation/03-web/file-uploads.md)
   * [Host header attacks](03-exploitation/03-web/host-header-attacks.md)
   * [Logic flaws](03-exploitation/03-web/logic-flaws.md)
+  * [HTTP Request smuggling](03-exploitation/03-web/http-request-smuggling.md)
 
   * [Template injection](03-exploitation/03-web/template-injection.md)  
 * Buffer overflow
