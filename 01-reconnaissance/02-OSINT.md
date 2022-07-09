@@ -32,7 +32,7 @@ Query domain, check `TXT` record.
 "v=spf1 ip4:192.0.2.0/24 ip4:198.51.100.123 a -all"
 ```  
 
-### MARC (Domain-based Message Authentication, Reporting and Conformance)
+### DMARC (Domain-based Message Authentication, Reporting and Conformance)
 
 > DMARC (Domain-based Message Authentication, Reporting and Conformance) is an email authentication protocol. It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing. The purpose and primary outcome of implementing DMARC is to protect a domain from being used in business email compromise attacks, phishing emails, email scams and other cyber threat activities.  
 > 
