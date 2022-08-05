@@ -46,6 +46,7 @@
   * [OS command injection](03-exploitation/03-web/os-command-injection.md)
   * [HTTP Request smuggling](03-exploitation/03-web/http-request-smuggling.md)
   * [Insecure deserialization](03-exploitation/03-web/insecure-deserialization.md)
+  * [DOM-based](03-exploitation/03-web/dom-based.md)
   * [WebSockets](03-exploitation/03-web/websockets.md)
   * [Web cache poisoning](03-exploitation/03-web/web-cache-poisoning.md)
 * Buffer overflow
