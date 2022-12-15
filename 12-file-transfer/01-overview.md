@@ -17,11 +17,10 @@ sudo systemctl start apache2
 ```
 Default directory `/var/www/html`
 
-### SMB
+### SMB (impacket)
 
-smbserver.py (impacket)
 ```bash
-sudo impacket-smbserver <share-name> <local-folder>
+smbserver.py -smb2support <share-name> <local-folder>
 ```
 
 ### FTP

@@ -26,7 +26,14 @@ show Grants;
 
 Show "env"
 ```bash
-select @@hostname, @@tmpdir, @@version, @@version_compile_machine, @@plugin_dir;
+select @@hostname, @@tmpdir, @@version, @@version_compile_machine, @@plugin_dir;
+```
+
+## Misc
+
+Read file from file system
+```bash
+select LOAD_FILE("/etc/passwd");
 ```
 
 ## User defined functions (UDF)

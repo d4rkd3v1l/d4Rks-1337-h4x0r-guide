@@ -91,7 +91,7 @@ bloodhound-python -u <username> -p <password> -ns <nameserver> -d <domain> -c Al
 
 **OR**
 ```cmd
-.\SharpHound.exe -c all -d <domain> --domain-controller <dc-ip>
+.\SharpHound.exe -c all -d <domain> --domaincontroller <dc-ip>
 ```
 Copy generated `*BloodHound.zip`
 

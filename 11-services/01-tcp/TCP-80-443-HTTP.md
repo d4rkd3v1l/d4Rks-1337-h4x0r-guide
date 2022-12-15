@@ -31,6 +31,25 @@ Check links
 curl <ip> -s -L | grep "title\|href" | sed -e 's/^[[:space:]]*//'
 ```
 
+Identify technologies used
+```bash
+whatweb <ip>
+```
+
+Get response
+```bash
+http <ip>
+```
+
+Terminal/Text-based browsers
+```bash
+browsh --startup-url <url>
+```
+
+```bash
+lynx <url>
+```
+
 ### URL brute force
 
 See [Enumeration/Webserver scanning](../../02-enumeration/03-webserver-scanning.md)
